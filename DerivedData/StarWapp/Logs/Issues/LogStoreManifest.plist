@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>AE2D1E6B-491D-4524-A488-75B1F6BDA3C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>AE2D1E6B-491D-4524-A488-75B1F6BDA3C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>StarWapp-cjxnqwuxsqulzobyhrpmdouiqzyz</string>
+			<key>timeStartedRecording</key>
+			<real>676262343.37485695</real>
+			<key>timeStoppedRecording</key>
+			<real>676262344.24552596</real>
+			<key>title</key>
+			<string>Build target StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>AE2D1E6B-491D-4524-A488-75B1F6BDA3C0</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+StarWapp in StarWapp, no dependencies
+StarWapp in StarWapp, no dependencies

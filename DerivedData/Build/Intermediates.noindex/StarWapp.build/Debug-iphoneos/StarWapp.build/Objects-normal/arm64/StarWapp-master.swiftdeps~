@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "2c895cf7258331bd78fcb26112e3e3b47c59692778e8fa36b0244e3429dcf56d"
+build_start_time: [1654565278, 222271919]
+build_end_time: [1654565282, 269932031]
+inputs:
+  "/Users/trabalho/Music/StarWapp/StarWapp/AppDelegate.swift": [1654563346, 497313499]
+  "/Users/trabalho/Music/StarWapp/StarWapp/SceneDelegate.swift": [1654563346, 502025127]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/ViewController.swift": [1654565131, 64785957]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewModel/BaseViewModel.swift": !private [1654565277, 944993495]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewModel/MenuViewModel.swift": !private [1654565277, 956451892]

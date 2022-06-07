@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e9efe0e83e7b1879af928e5976233231e6e0fe05e8ff316451a644f69631899d"
+    }
+  ],
+  "containerPath" : "/Users/trabalho/Music/StarWapp/StarWapp.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/trabalho/Music/StarWapp/DerivedData/StarWapp/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/trabalho/Music/StarWapp/DerivedData/StarWapp/Index/Build/Products",
+      "derivedDataPath" : "/Users/trabalho/Music/StarWapp/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/trabalho/Music/StarWapp/DerivedData/StarWapp/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/trabalho/Music/StarWapp/DerivedData/StarWapp/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/trabalho/Music/StarWapp/DerivedData/StarWapp/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/trabalho/Music/StarWapp/DerivedData/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

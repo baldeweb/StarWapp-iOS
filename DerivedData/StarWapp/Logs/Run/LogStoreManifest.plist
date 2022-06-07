@@ -5,6 +5,381 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>336F5DC0-6CDE-441E-BEF9-BA94BD0F64BF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>336F5DC0-6CDE-441E-BEF9-BA94BD0F64BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676262182.53919995</real>
+			<key>timeStoppedRecording</key>
+			<real>676262213.653404</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>336F5DC0-6CDE-441E-BEF9-BA94BD0F64BF</string>
+		</dict>
+		<key>407E88E3-95B3-46D6-97CA-E66F3D3A9B35</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>407E88E3-95B3-46D6-97CA-E66F3D3A9B35.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676259035.94783497</real>
+			<key>timeStoppedRecording</key>
+			<real>676259047.06576002</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>407E88E3-95B3-46D6-97CA-E66F3D3A9B35</string>
+		</dict>
+		<key>54529E33-CF4A-4B54-8A75-5CC2A11E5808</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>54529E33-CF4A-4B54-8A75-5CC2A11E5808.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676262300.40532994</real>
+			<key>timeStoppedRecording</key>
+			<real>676262343.39947796</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>54529E33-CF4A-4B54-8A75-5CC2A11E5808</string>
+		</dict>
+		<key>8401662B-368C-438C-9BC5-C07B585EA5F8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8401662B-368C-438C-9BC5-C07B585EA5F8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676262273.20820105</real>
+			<key>timeStoppedRecording</key>
+			<real>676262285.67609501</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>8401662B-368C-438C-9BC5-C07B585EA5F8</string>
+		</dict>
+		<key>95016318-493F-464D-8494-2438684E6482</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>95016318-493F-464D-8494-2438684E6482.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676259449.15805304</real>
+			<key>timeStoppedRecording</key>
+			<real>676260313.93184304</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>95016318-493F-464D-8494-2438684E6482</string>
+		</dict>
+		<key>BA9AEB8F-BA24-4A1E-A44B-C150B3458317</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BA9AEB8F-BA24-4A1E-A44B-C150B3458317.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676262173.11710203</real>
+			<key>timeStoppedRecording</key>
+			<real>676262181.64787304</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>BA9AEB8F-BA24-4A1E-A44B-C150B3458317</string>
+		</dict>
+		<key>C382126E-1440-4A50-95A0-750FFF309FDC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C382126E-1440-4A50-95A0-750FFF309FDC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676262286.41003799</real>
+			<key>timeStoppedRecording</key>
+			<real>676262299.55270398</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>C382126E-1440-4A50-95A0-750FFF309FDC</string>
+		</dict>
+		<key>D6719697-9618-4B17-8D7D-49BBFDCF8834</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D6719697-9618-4B17-8D7D-49BBFDCF8834.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676262214.52927697</real>
+			<key>timeStoppedRecording</key>
+			<real>676262272.35608494</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>D6719697-9618-4B17-8D7D-49BBFDCF8834</string>
+		</dict>
+		<key>DB8B124F-86B6-4B43-BBE3-0D2D97339064</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB8B124F-86B6-4B43-BBE3-0D2D97339064.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676260316.30010796</real>
+			<key>timeStoppedRecording</key>
+			<real>676262170.25674403</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>DB8B124F-86B6-4B43-BBE3-0D2D97339064</string>
+		</dict>
+		<key>F395B815-6213-45B0-AE64-66C07465D334</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F395B815-6213-45B0-AE64-66C07465D334.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676258575.68973601</real>
+			<key>timeStoppedRecording</key>
+			<real>676258850.446648</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>F395B815-6213-45B0-AE64-66C07465D334</string>
+		</dict>
+		<key>F68C8212-8062-4D8E-B310-51C5772E06DC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F68C8212-8062-4D8E-B310-51C5772E06DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StarWapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StarWapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run StarWapp</string>
+			<key>timeStartedRecording</key>
+			<real>676258173.29983199</real>
+			<key>timeStoppedRecording</key>
+			<real>676258178.03139901</real>
+			<key>title</key>
+			<string>Run StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>F68C8212-8062-4D8E-B310-51C5772E06DC</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
