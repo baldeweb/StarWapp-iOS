@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "logo_starwars.pdf",
+      "idiom" : "iphone"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

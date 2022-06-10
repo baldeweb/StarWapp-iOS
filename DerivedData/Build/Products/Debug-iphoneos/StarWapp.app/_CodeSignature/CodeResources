@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		jEe/2P4FIou2LGlmQslAsnEudVA=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		0ChpSGDCG9N4elOOMeCJUwfGlgw=
+		vVSt4i/zZc/7lvFRCMTX6guMMIo=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -16,21 +20,21 @@
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
 		</data>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<key>Frameworks/SnapKit.framework/Info.plist</key>
 		<data>
-		tG+0NJBTDJU1pGyTkthn/3SEV7s=
+		K33cnUaKuKIyOVPosqaV18JYnfA=
 		</data>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<data>
-		MDrKFvFWroTb0+KEbQShBcoBvo4=
+		duvyr+Esnt/Na7+qECk8lExISFE=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
+		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6+S7pNzBJxO2/7ctITO+jY6FIaw=
+		opD7SDQxhYHeGiaQzz1jGTuKzrs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tgEKPvwBL6KLdZE/J8Y3ycW6sxc=
+		a4L7aSJK1CheApNq3Q8Kdwbt3vM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -40,14 +44,33 @@
 		<data>
 		Ep7CxFTjK3NZuQnpMY0zCBDNT64=
 		</data>
+		<key>krungthep.ttf</key>
+		<data>
+		GcBhReGzPOdRhZ6dfhHEoZAA+J8=
+		</data>
+		<key>lato-bold.ttf</key>
+		<data>
+		VCSYIh2XvuW9vM+G7oiQv46ABck=
+		</data>
+		<key>lato-regular.ttf</key>
+		<data>
+		6SPHLtpeUKh+GP9ccenvSztkVaM=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kjzC2IC9hIIsdHR2zbJjRMmCBNoYmA4lXvxrkb0KrPM=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xY+K+ZNJZzpIZza4mS2iIJ2dXIHrDKMQTSEpFWownbE=
+			gJRn8ufnJBq7621RUZ4C/aMTxr/j+vyzfwoazPlB6+0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -64,25 +87,25 @@
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<key>Frameworks/SnapKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eGOOA9v7cm8vfK6MRci5Cka6ymlf1C3AyF6Gqr5XqPo=
+			4R8VpbBVZtFVylw/ODptST4gLH7DieWNYk5Vh3ymZhI=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<key>Frameworks/SnapKit.framework/SnapKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
+			yDkkGOQ2kpFBAd+8mbDIhGZn+QWfSgfzTVqU1bjCAgo=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
+		<key>Frameworks/SnapKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TwqxtWUwocr7k8mxTRi1TjkRT6rCHjxRJn/hRp3rIi8=
+			udJpnKolnZQqqMf0/eQZ7qo2MDjQhuEkjLN3UpCTqIo=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -90,6 +113,27 @@
 			<key>hash2</key>
 			<data>
 			frjSv+lc0Du75kkyhjapLcfkhG7vW+euLyIouj4ZmQs=
+			</data>
+		</dict>
+		<key>krungthep.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6pPCqDmSA48dJAqQXeZt/qoOkjjRk3f6XQpe5VN4bJU=
+			</data>
+		</dict>
+		<key>lato-bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
+			</data>
+		</dict>
+		<key>lato-regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6CVCrtgpP0n8g8Sq6lZrH2tPx6mrXaEeb7m8CXO1Mks=
 			</data>
 		</dict>
 	</dict>

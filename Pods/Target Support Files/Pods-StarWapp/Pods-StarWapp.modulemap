@@ -1,0 +1,6 @@
+framework module Pods_StarWapp {
+  umbrella header "Pods-StarWapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

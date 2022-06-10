@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>AE2D1E6B-491D-4524-A488-75B1F6BDA3C0</key>
+		<key>0357648D-9565-4953-BA3F-D34CED4CE09F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>AE2D1E6B-491D-4524-A488-75B1F6BDA3C0.xcactivitylog</string>
+			<string>0357648D-9565-4953-BA3F-D34CED4CE09F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,69 @@
 			<key>signature</key>
 			<string>StarWapp-cjxnqwuxsqulzobyhrpmdouiqzyz</string>
 			<key>timeStartedRecording</key>
-			<real>676262343.37485695</real>
+			<real>676518847.32334399</real>
 			<key>timeStoppedRecording</key>
-			<real>676262344.24552596</real>
+			<real>676518848.76334798</real>
 			<key>title</key>
 			<string>Build target StarWapp</string>
 			<key>uniqueIdentifier</key>
-			<string>AE2D1E6B-491D-4524-A488-75B1F6BDA3C0</string>
+			<string>0357648D-9565-4953-BA3F-D34CED4CE09F</string>
+		</dict>
+		<key>3F47A362-DFB8-4355-8310-F8116CFFEB52</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>3F47A362-DFB8-4355-8310-F8116CFFEB52.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>SnapKit-aewyuerdilqkpygowdihbotiqyex</string>
+			<key>timeStartedRecording</key>
+			<real>676432715.87712204</real>
+			<key>timeStoppedRecording</key>
+			<real>676432727.04597902</real>
+			<key>title</key>
+			<string>Build target SnapKit</string>
+			<key>uniqueIdentifier</key>
+			<string>3F47A362-DFB8-4355-8310-F8116CFFEB52</string>
+		</dict>
+		<key>8F9262CC-B800-47F6-A012-E1D96A543CF9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>8F9262CC-B800-47F6-A012-E1D96A543CF9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-StarWapp-aewyuerdilqkpygowdihbotiqyex</string>
+			<key>timeStartedRecording</key>
+			<real>676432715.87443304</real>
+			<key>timeStoppedRecording</key>
+			<real>676432727.06026196</real>
+			<key>title</key>
+			<string>Build target Pods-StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>8F9262CC-B800-47F6-A012-E1D96A543CF9</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

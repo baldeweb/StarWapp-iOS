@@ -14,6 +14,774 @@
       ]
     },
     {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainMenuViewController",
+      "printedName": "MainMenuViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_scrollView",
+          "printedName": "$__lazy_storage_$_scrollView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIScrollView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIScrollView",
+                  "printedName": "UIKit.UIScrollView",
+                  "usr": "c:objc(cs)UIScrollView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC024$__lazy_storage_$_scrollE033_47441A532BCC0545E8F8266C4664BD19LLSo08UIScrollE0CSgvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC024$__lazy_storage_$_scrollE033_47441A532BCC0545E8F8266C4664BD19LLSo08UIScrollE0CSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_container",
+          "printedName": "$__lazy_storage_$_container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC27$__lazy_storage_$_container33_47441A532BCC0545E8F8266C4664BD19LLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC27$__lazy_storage_$_container33_47441A532BCC0545E8F8266C4664BD19LLSo6UIViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_content",
+          "printedName": "$__lazy_storage_$_content",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIStackView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStackView",
+                  "printedName": "UIKit.UIStackView",
+                  "usr": "c:objc(cs)UIStackView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC25$__lazy_storage_$_content33_47441A532BCC0545E8F8266C4664BD19LLSo07UIStackE0CSgvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC25$__lazy_storage_$_content33_47441A532BCC0545E8F8266C4664BD19LLSo07UIStackE0CSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "tableView",
+          "printedName": "tableView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITableView",
+                  "printedName": "UIKit.UITableView",
+                  "usr": "c:objc(cs)UITableView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvg",
+              "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITableView",
+                  "printedName": "UIKit.UITableView",
+                  "usr": "c:objc(cs)UITableView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvs",
+              "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0CvM",
+              "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0CvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_tableView",
+          "printedName": "$__lazy_storage_$_tableView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UITableView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITableView",
+                  "printedName": "UIKit.UITableView",
+                  "usr": "c:objc(cs)UITableView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC023$__lazy_storage_$_tableE033_47441A532BCC0545E8F8266C4664BD19LLSo07UITableE0CSgvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC023$__lazy_storage_$_tableE033_47441A532BCC0545E8F8266C4664BD19LLSo07UITableE0CSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "cellId",
+          "printedName": "cellId",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC6cellId33_47441A532BCC0545E8F8266C4664BD19LLSSvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC6cellId33_47441A532BCC0545E8F8266C4664BD19LLSSvp",
+          "moduleName": "StarWapp",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "Custom",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "listItemsMenu",
+          "printedName": "listItemsMenu",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[StarWapp.ItemMenu]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ItemMenu",
+                  "printedName": "StarWapp.ItemMenu",
+                  "usr": "s:8StarWapp8ItemMenuV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp22MainMenuViewControllerC09listItemsD033_47441A532BCC0545E8F8266C4664BD19LLSayAA04ItemD0VGvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC09listItemsD033_47441A532BCC0545E8F8266C4664BD19LLSayAA04ItemD0VGvp",
+          "moduleName": "StarWapp",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 5,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)viewDidLoad",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC11viewDidLoadyyF",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "loadView",
+          "printedName": "loadView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)loadView",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC04loadE0yyF",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "loadView",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainMenuViewController",
+              "printedName": "StarWapp.MainMenuViewController",
+              "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "StarWapp.MainMenuViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "MainMenuViewController",
+                  "printedName": "StarWapp.MainMenuViewController",
+                  "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)initWithCoder:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:viewForHeaderInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:viewForHeaderInSection:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_22viewForHeaderInSectionSo6UIViewCSgSo07UITableE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:viewForHeaderInSection:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:heightForHeaderInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:heightForHeaderInSection:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_24heightForHeaderInSection12CoreGraphics7CGFloatVSo07UITableE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:heightForHeaderInSection:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:numberOfRowsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:numberOfRowsInSection:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_21numberOfRowsInSectionSiSo07UITableE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:numberOfRowsInSection:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:heightForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:heightForRowAtIndexPath:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:heightForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:cellForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableViewCell",
+              "printedName": "UIKit.UITableViewCell",
+              "usr": "c:objc(cs)UITableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:cellForRowAtIndexPath:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_12cellForRowAtSo07UITableE4CellCSo0lE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:didSelectRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:didSelectRowAtIndexPath:",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_14didSelectRowAtySo07UITableE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:didSelectRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController",
+      "mangledName": "$s8StarWapp22MainMenuViewControllerC",
+      "moduleName": "StarWapp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:@M@StarWapp@objc(cs)BaseViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "StarWapp.BaseViewController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
       "kind": "TypeDecl",
       "name": "PeopleResponse",
       "printedName": "PeopleResponse",
@@ -2301,6 +3069,370 @@
       ]
     },
     {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ItemMenu",
+      "printedName": "ItemMenu",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "title",
+          "printedName": "title",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp8ItemMenuV5titleSSSgvp",
+          "mangledName": "$s8StarWapp8ItemMenuV5titleSSSgvp",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp8ItemMenuV5titleSSSgvg",
+              "mangledName": "$s8StarWapp8ItemMenuV5titleSSSgvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "image",
+          "printedName": "image",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImage?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp8ItemMenuV5imageSo7UIImageCSgvp",
+          "mangledName": "$s8StarWapp8ItemMenuV5imageSo7UIImageCSgvp",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIImage?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp8ItemMenuV5imageSo7UIImageCSgvg",
+              "mangledName": "$s8StarWapp8ItemMenuV5imageSo7UIImageCSgvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bgColor",
+          "printedName": "bgColor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp8ItemMenuV7bgColorSSSgvp",
+          "mangledName": "$s8StarWapp8ItemMenuV7bgColorSSSgvp",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp8ItemMenuV7bgColorSSSgvg",
+              "mangledName": "$s8StarWapp8ItemMenuV7bgColorSSSgvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "controller",
+          "printedName": "controller",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIViewController",
+                  "printedName": "UIKit.UIViewController",
+                  "usr": "c:objc(cs)UIViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp8ItemMenuV10controllerSo16UIViewControllerCSgvp",
+          "mangledName": "$s8StarWapp8ItemMenuV10controllerSo16UIViewControllerCSgvp",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIViewController?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIViewController",
+                      "printedName": "UIKit.UIViewController",
+                      "usr": "c:objc(cs)UIViewController"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp8ItemMenuV10controllerSo16UIViewControllerCSgvg",
+              "mangledName": "$s8StarWapp8ItemMenuV10controllerSo16UIViewControllerCSgvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:image:bgColor:controller:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ItemMenu",
+              "printedName": "StarWapp.ItemMenu",
+              "usr": "s:8StarWapp8ItemMenuV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImage?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIViewController",
+                  "printedName": "UIKit.UIViewController",
+                  "usr": "c:objc(cs)UIViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8StarWapp8ItemMenuV5title5image7bgColor10controllerACSSSg_So7UIImageCSgAHSo16UIViewControllerCSgtcfc",
+          "mangledName": "$s8StarWapp8ItemMenuV5title5image7bgColor10controllerACSSSg_So7UIImageCSgAHSo16UIViewControllerCSgtcfc",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8StarWapp8ItemMenuV",
+      "mangledName": "$s8StarWapp8ItemMenuV",
+      "moduleName": "StarWapp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
       "kind": "TypeDecl",
       "name": "BaseViewModel",
       "printedName": "BaseViewModel",
@@ -2445,6 +3577,23 @@
           "mangledName": "$ss28CustomDebugStringConvertibleP"
         }
       ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
     },
     {
       "kind": "Import",
@@ -4307,28 +5456,6 @@
           "funcSelfKind": "NonMutating"
         },
         {
-          "kind": "Function",
-          "name": "$main",
-          "printedName": "$main()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "s:8StarWapp11AppDelegateC5$mainyyFZ",
-          "mangledName": "$s8StarWapp11AppDelegateC5$mainyyFZ",
-          "moduleName": "StarWapp",
-          "static": true,
-          "implicit": true,
-          "declAttributes": [
-            "Final"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
           "kind": "Constructor",
           "name": "init",
           "printedName": "init()",
@@ -4362,7 +5489,7 @@
       "isOpen": true,
       "declAttributes": [
         "Custom",
-        "MainType",
+        "UIApplicationMain",
         "ObjC"
       ],
       "superclassUsr": "c:objc(cs)UIResponder",
@@ -4420,6 +5547,13 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
         }
       ]
     },
@@ -4477,6 +5611,55 @@
               "declKind": "Accessor",
               "usr": "s:8StarWapp13GlobalStringsV7baseUrlSSvgZ",
               "mangledName": "$s8StarWapp13GlobalStringsV7baseUrlSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "poweredBy",
+          "printedName": "poweredBy",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp13GlobalStringsV9poweredBySSvpZ",
+          "mangledName": "$s8StarWapp13GlobalStringsV9poweredBySSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp13GlobalStringsV9poweredBySSvgZ",
+              "mangledName": "$s8StarWapp13GlobalStringsV9poweredBySSvgZ",
               "moduleName": "StarWapp",
               "static": true,
               "implicit": true,
@@ -5049,6 +6232,13 @@
           "printedName": "CustomDebugStringConvertible",
           "usr": "s:s28CustomDebugStringConvertibleP",
           "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
         }
       ]
     },
@@ -7170,13 +8360,13 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "Endpoints",
-      "printedName": "Endpoints",
+      "name": "SettingsStrings",
+      "printedName": "SettingsStrings",
       "children": [
         {
           "kind": "Var",
-          "name": "people",
-          "printedName": "people",
+          "name": "listTypeTitle",
+          "printedName": "listTypeTitle",
           "children": [
             {
               "kind": "TypeNominal",
@@ -7186,8 +8376,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp9EndpointsV6peopleSSvpZ",
-          "mangledName": "$s8StarWapp9EndpointsV6peopleSSvpZ",
+          "usr": "s:8StarWapp15SettingsStringsV13listTypeTitleSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV13listTypeTitleSSvpZ",
           "moduleName": "StarWapp",
           "static": true,
           "declAttributes": [
@@ -7210,8 +8400,1421 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:8StarWapp9EndpointsV6peopleSSvgZ",
-              "mangledName": "$s8StarWapp9EndpointsV6peopleSSvgZ",
+              "usr": "s:8StarWapp15SettingsStringsV13listTypeTitleSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV13listTypeTitleSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "listItemGrid",
+          "printedName": "listItemGrid",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp15SettingsStringsV12listItemGridSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV12listItemGridSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp15SettingsStringsV12listItemGridSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV12listItemGridSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "listItemList",
+          "printedName": "listItemList",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp15SettingsStringsV12listItemListSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV12listItemListSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp15SettingsStringsV12listItemListSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV12listItemListSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "languageApplication",
+          "printedName": "languageApplication",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp15SettingsStringsV19languageApplicationSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV19languageApplicationSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp15SettingsStringsV19languageApplicationSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV19languageApplicationSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "portugueseLanguage",
+          "printedName": "portugueseLanguage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp15SettingsStringsV18portugueseLanguageSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV18portugueseLanguageSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp15SettingsStringsV18portugueseLanguageSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV18portugueseLanguageSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "englishLanguage",
+          "printedName": "englishLanguage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp15SettingsStringsV15englishLanguageSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV15englishLanguageSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp15SettingsStringsV15englishLanguageSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV15englishLanguageSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "russianLanguage",
+          "printedName": "russianLanguage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp15SettingsStringsV15russianLanguageSSvpZ",
+          "mangledName": "$s8StarWapp15SettingsStringsV15russianLanguageSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp15SettingsStringsV15russianLanguageSSvgZ",
+              "mangledName": "$s8StarWapp15SettingsStringsV15russianLanguageSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SettingsStrings",
+              "printedName": "StarWapp.SettingsStrings",
+              "usr": "s:8StarWapp15SettingsStringsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8StarWapp15SettingsStringsVACycfc",
+          "mangledName": "$s8StarWapp15SettingsStringsVACycfc",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8StarWapp15SettingsStringsV",
+      "mangledName": "$s8StarWapp15SettingsStringsV",
+      "moduleName": "StarWapp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GlobalColor",
+      "printedName": "GlobalColor",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "black",
+          "printedName": "black",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV5blackSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV5blackSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV5blackSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV5blackSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dark",
+          "printedName": "dark",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV4darkSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV4darkSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV4darkSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV4darkSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "white",
+          "printedName": "white",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV5whiteSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV5whiteSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV5whiteSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV5whiteSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "neon_green",
+          "printedName": "neon_green",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV10neon_greenSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV10neon_greenSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV10neon_greenSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV10neon_greenSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "yellow",
+          "printedName": "yellow",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV6yellowSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV6yellowSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV6yellowSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV6yellowSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "lead_gray",
+          "printedName": "lead_gray",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV9lead_graySSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV9lead_graySSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV9lead_graySSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV9lead_graySSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "soft_orange",
+          "printedName": "soft_orange",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV11soft_orangeSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV11soft_orangeSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV11soft_orangeSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV11soft_orangeSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "soft_brown",
+          "printedName": "soft_brown",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV10soft_brownSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV10soft_brownSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV10soft_brownSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV10soft_brownSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "light_orange",
+          "printedName": "light_orange",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11GlobalColorV12light_orangeSSvpZ",
+          "mangledName": "$s8StarWapp11GlobalColorV12light_orangeSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11GlobalColorV12light_orangeSSvgZ",
+              "mangledName": "$s8StarWapp11GlobalColorV12light_orangeSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GlobalColor",
+              "printedName": "StarWapp.GlobalColor",
+              "usr": "s:8StarWapp11GlobalColorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8StarWapp11GlobalColorVACycfc",
+          "mangledName": "$s8StarWapp11GlobalColorVACycfc",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8StarWapp11GlobalColorV",
+      "mangledName": "$s8StarWapp11GlobalColorV",
+      "moduleName": "StarWapp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ListItemMenuCell",
+      "printedName": "ListItemMenuCell",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_container",
+          "printedName": "$__lazy_storage_$_container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC27$__lazy_storage_$_container33_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC27$__lazy_storage_$_container33_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "titleItem",
+          "printedName": "titleItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UILabel",
+              "printedName": "UIKit.UILabel",
+              "usr": "c:objc(cs)UILabel"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvg",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvs",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvM",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC05titleD0So7UILabelCvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_titleItem",
+          "printedName": "$__lazy_storage_$_titleItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC023$__lazy_storage_$_titleD033_283CC5BBA55532AC62423526CAC85423LLSo7UILabelCSgvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC023$__lazy_storage_$_titleD033_283CC5BBA55532AC62423526CAC85423LLSo7UILabelCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_contentItem",
+          "printedName": "$__lazy_storage_$_contentItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC025$__lazy_storage_$_contentD033_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC025$__lazy_storage_$_contentD033_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "retangle",
+          "printedName": "retangle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvg",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvs",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvM",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_retangle",
+          "printedName": "$__lazy_storage_$_retangle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC26$__lazy_storage_$_retangle33_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC26$__lazy_storage_$_retangle33_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:reuseIdentifier:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ListItemMenuCell",
+              "printedName": "StarWapp.ListItemMenuCell",
+              "usr": "c:@M@StarWapp@objc(cs)ListItemMenuCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CellStyle",
+              "printedName": "UIKit.UITableViewCell.CellStyle",
+              "usr": "c:@E@UITableViewCellStyle"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)ListItemMenuCell(im)initWithStyle:reuseIdentifier:",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC5style15reuseIdentifierACSo011UITableViewF5StyleV_SSSgtcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "objc_name": "initWithStyle:reuseIdentifier:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "StarWapp.ListItemMenuCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ListItemMenuCell",
+                  "printedName": "StarWapp.ListItemMenuCell",
+                  "usr": "c:@M@StarWapp@objc(cs)ListItemMenuCell"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)ListItemMenuCell(im)initWithCoder:",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@StarWapp@objc(cs)ListItemMenuCell",
+      "mangledName": "$s8StarWapp16ListItemMenuCellC",
+      "moduleName": "StarWapp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewCell",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewCell",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ConstraintRelatableTarget",
+          "printedName": "ConstraintRelatableTarget",
+          "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+          "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LayoutConstraintItem",
+          "printedName": "LayoutConstraintItem",
+          "usr": "s:7SnapKit20LayoutConstraintItemP",
+          "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "EndpointsStrings",
+      "printedName": "EndpointsStrings",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "people",
+          "printedName": "people",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16EndpointsStringsV6peopleSSvpZ",
+          "mangledName": "$s8StarWapp16EndpointsStringsV6peopleSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16EndpointsStringsV6peopleSSvgZ",
+              "mangledName": "$s8StarWapp16EndpointsStringsV6peopleSSvgZ",
               "moduleName": "StarWapp",
               "static": true,
               "implicit": true,
@@ -7235,8 +9838,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp9EndpointsV7planetsSSvpZ",
-          "mangledName": "$s8StarWapp9EndpointsV7planetsSSvpZ",
+          "usr": "s:8StarWapp16EndpointsStringsV7planetsSSvpZ",
+          "mangledName": "$s8StarWapp16EndpointsStringsV7planetsSSvpZ",
           "moduleName": "StarWapp",
           "static": true,
           "declAttributes": [
@@ -7259,8 +9862,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:8StarWapp9EndpointsV7planetsSSvgZ",
-              "mangledName": "$s8StarWapp9EndpointsV7planetsSSvgZ",
+              "usr": "s:8StarWapp16EndpointsStringsV7planetsSSvgZ",
+              "mangledName": "$s8StarWapp16EndpointsStringsV7planetsSSvgZ",
               "moduleName": "StarWapp",
               "static": true,
               "implicit": true,
@@ -7284,8 +9887,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp9EndpointsV9starshipsSSvpZ",
-          "mangledName": "$s8StarWapp9EndpointsV9starshipsSSvpZ",
+          "usr": "s:8StarWapp16EndpointsStringsV9starshipsSSvpZ",
+          "mangledName": "$s8StarWapp16EndpointsStringsV9starshipsSSvpZ",
           "moduleName": "StarWapp",
           "static": true,
           "declAttributes": [
@@ -7308,8 +9911,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:8StarWapp9EndpointsV9starshipsSSvgZ",
-              "mangledName": "$s8StarWapp9EndpointsV9starshipsSSvgZ",
+              "usr": "s:8StarWapp16EndpointsStringsV9starshipsSSvgZ",
+              "mangledName": "$s8StarWapp16EndpointsStringsV9starshipsSSvgZ",
               "moduleName": "StarWapp",
               "static": true,
               "implicit": true,
@@ -7327,22 +9930,561 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Endpoints",
-              "printedName": "StarWapp.Endpoints",
-              "usr": "s:8StarWapp9EndpointsV"
+              "name": "EndpointsStrings",
+              "printedName": "StarWapp.EndpointsStrings",
+              "usr": "s:8StarWapp16EndpointsStringsV"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:8StarWapp9EndpointsVACycfc",
-          "mangledName": "$s8StarWapp9EndpointsVACycfc",
+          "usr": "s:8StarWapp16EndpointsStringsVACycfc",
+          "mangledName": "$s8StarWapp16EndpointsStringsVACycfc",
           "moduleName": "StarWapp",
           "implicit": true,
           "init_kind": "Designated"
         }
       ],
       "declKind": "Struct",
-      "usr": "s:8StarWapp9EndpointsV",
-      "mangledName": "$s8StarWapp9EndpointsV",
+      "usr": "s:8StarWapp16EndpointsStringsV",
+      "mangledName": "$s8StarWapp16EndpointsStringsV",
+      "moduleName": "StarWapp",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MenuStrings",
+      "printedName": "MenuStrings",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "menuTitle",
+          "printedName": "menuTitle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV9menuTitleSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV9menuTitleSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV9menuTitleSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV9menuTitleSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findStarships",
+          "printedName": "findStarships",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV13findStarshipsSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV13findStarshipsSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV13findStarshipsSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV13findStarshipsSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findPlanets",
+          "printedName": "findPlanets",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV11findPlanetsSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV11findPlanetsSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV11findPlanetsSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV11findPlanetsSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findCharacters",
+          "printedName": "findCharacters",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV14findCharactersSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV14findCharactersSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV14findCharactersSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV14findCharactersSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findRandom",
+          "printedName": "findRandom",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV10findRandomSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV10findRandomSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV10findRandomSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV10findRandomSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "settings",
+          "printedName": "settings",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV8settingsSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV8settingsSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV8settingsSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV8settingsSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "playSong",
+          "printedName": "playSong",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV8playSongSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV8playSongSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV8playSongSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV8playSongSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "chooseWisely",
+          "printedName": "chooseWisely",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV12chooseWiselySSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV12chooseWiselySSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV12chooseWiselySSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV12chooseWiselySSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findAll",
+          "printedName": "findAll",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV7findAllSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV7findAllSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV7findAllSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV7findAllSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findByName",
+          "printedName": "findByName",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV10findByNameSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV10findByNameSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV10findByNameSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV10findByNameSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MenuStrings",
+              "printedName": "StarWapp.MenuStrings",
+              "usr": "s:8StarWapp11MenuStringsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8StarWapp11MenuStringsVACycfc",
+          "mangledName": "$s8StarWapp11MenuStringsVACycfc",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8StarWapp11MenuStringsV",
+      "mangledName": "$s8StarWapp11MenuStringsV",
       "moduleName": "StarWapp",
       "conformances": [
         {
@@ -7558,6 +10700,434 @@
       "inheritsConvenienceInitializers": true,
       "superclassNames": [
         "StarWapp.BaseViewModel",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Function",
+      "name": "hexStringToUIColor",
+      "printedName": "hexStringToUIColor(hex:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "UIColor",
+          "printedName": "UIKit.UIColor",
+          "usr": "c:objc(cs)UIColor"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:8StarWapp18hexStringToUIColor0C0So0F0CSS_tF",
+      "mangledName": "$s8StarWapp18hexStringToUIColor0C0So0F0CSS_tF",
+      "moduleName": "StarWapp",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIFont",
+      "printedName": "UIFont",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "LatoType",
+          "printedName": "LatoType",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "regular",
+              "printedName": "regular",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(UIKit.UIFont.LatoType.Type) -> UIKit.UIFont.LatoType",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LatoType",
+                      "printedName": "UIKit.UIFont.LatoType",
+                      "usr": "s:So6UIFontC8StarWappE8LatoTypeO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "UIKit.UIFont.LatoType.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "LatoType",
+                          "printedName": "UIKit.UIFont.LatoType",
+                          "usr": "s:So6UIFontC8StarWappE8LatoTypeO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:So6UIFontC8StarWappE8LatoTypeO7regularyA2EmF",
+              "mangledName": "$sSo6UIFontC8StarWappE8LatoTypeO7regularyA2EmF",
+              "moduleName": "StarWapp",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "bold",
+              "printedName": "bold",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(UIKit.UIFont.LatoType.Type) -> UIKit.UIFont.LatoType",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LatoType",
+                      "printedName": "UIKit.UIFont.LatoType",
+                      "usr": "s:So6UIFontC8StarWappE8LatoTypeO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "UIKit.UIFont.LatoType.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "LatoType",
+                          "printedName": "UIKit.UIFont.LatoType",
+                          "usr": "s:So6UIFontC8StarWappE8LatoTypeO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:So6UIFontC8StarWappE8LatoTypeO4boldyA2EmF",
+              "mangledName": "$sSo6UIFontC8StarWappE8LatoTypeO4boldyA2EmF",
+              "moduleName": "StarWapp",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(rawValue:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIFont.LatoType?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LatoType",
+                      "printedName": "UIKit.UIFont.LatoType",
+                      "usr": "s:So6UIFontC8StarWappE8LatoTypeO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:So6UIFontC8StarWappE8LatoTypeO8rawValueAESgSS_tcfc",
+              "mangledName": "$sSo6UIFontC8StarWappE8LatoTypeO8rawValueAESgSS_tcfc",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "declAttributes": [
+                "Inlinable"
+              ],
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Var",
+              "name": "rawValue",
+              "printedName": "rawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:So6UIFontC8StarWappE8LatoTypeO8rawValueSSvp",
+              "mangledName": "$sSo6UIFontC8StarWappE8LatoTypeO8rawValueSSvp",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:So6UIFontC8StarWappE8LatoTypeO8rawValueSSvg",
+                  "mangledName": "$sSo6UIFontC8StarWappE8LatoTypeO8rawValueSSvg",
+                  "moduleName": "StarWapp",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Inlinable"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:So6UIFontC8StarWappE8LatoTypeO",
+          "mangledName": "$sSo6UIFontC8StarWappE8LatoTypeO",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "enumRawTypeName": "String",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "RawRepresentable",
+              "printedName": "RawRepresentable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "RawValue",
+                  "printedName": "RawValue",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:SY",
+              "mangledName": "$sSY"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "Lato",
+          "printedName": "Lato(_:size:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIFont",
+              "printedName": "UIKit.UIFont",
+              "usr": "c:objc(cs)UIFont"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "LatoType",
+              "printedName": "UIKit.UIFont.LatoType",
+              "hasDefaultArg": true,
+              "usr": "s:So6UIFontC8StarWappE8LatoTypeO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "hasDefaultArg": true,
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIFontC8StarWappE4Lato_4sizeA2bCE0D4TypeO_12CoreGraphics7CGFloatVtFZ",
+          "mangledName": "$sSo6UIFontC8StarWappE4Lato_4sizeA2bCE0D4TypeO_12CoreGraphics7CGFloatVtFZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Krungthep",
+          "printedName": "Krungthep(size:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIFont",
+              "printedName": "UIKit.UIFont",
+              "usr": "c:objc(cs)UIFont"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "hasDefaultArg": true,
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIFontC8StarWappE9Krungthep4sizeAB12CoreGraphics7CGFloatV_tFZ",
+          "mangledName": "$sSo6UIFontC8StarWappE9Krungthep4sizeAB12CoreGraphics7CGFloatV_tFZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "isBold",
+          "printedName": "isBold",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So6UIFontC8StarWappE6isBoldSbvp",
+          "mangledName": "$sSo6UIFontC8StarWappE6isBoldSbvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So6UIFontC8StarWappE6isBoldSbvg",
+              "mangledName": "$sSo6UIFontC8StarWappE6isBoldSbvg",
+              "moduleName": "StarWapp",
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UIFont",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UIFont",
+      "declAttributes": [
+        "Available",
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
         "ObjectiveC.NSObject"
       ],
       "conformances": [
