@@ -104,188 +104,36 @@
         },
         {
           "kind": "Var",
-          "name": "$__lazy_storage_$_content",
-          "printedName": "$__lazy_storage_$_content",
+          "name": "tableList",
+          "printedName": "tableList",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "UIKit.UIStackView?",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "StarWapp.TableListViewController?",
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "UIStackView",
-                  "printedName": "UIKit.UIStackView",
-                  "usr": "c:objc(cs)UIStackView"
+                  "name": "TableListViewController",
+                  "printedName": "StarWapp.TableListViewController",
+                  "usr": "c:@M@StarWapp@objc(cs)TableListViewController"
                 }
               ],
               "usr": "s:Sq"
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC25$__lazy_storage_$_content33_47441A532BCC0545E8F8266C4664BD19LLSo07UIStackE0CSgvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC25$__lazy_storage_$_content33_47441A532BCC0545E8F8266C4664BD19LLSo07UIStackE0CSgvp",
+          "usr": "s:8StarWapp22MainMenuViewControllerC9tableList33_47441A532BCC0545E8F8266C4664BD19LLAA05TableheF0CSgvp",
+          "mangledName": "$s8StarWapp22MainMenuViewControllerC9tableList33_47441A532BCC0545E8F8266C4664BD19LLAA05TableheF0CSgvp",
           "moduleName": "StarWapp",
-          "implicit": true,
           "isInternal": true,
           "declAttributes": [
             "Custom",
             "HasInitialValue",
             "HasStorage",
-            "Final"
-          ],
-          "fixedbinaryorder": 2,
-          "hasStorage": true
-        },
-        {
-          "kind": "Var",
-          "name": "tableView",
-          "printedName": "tableView",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvp",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "declAttributes": [
-            "Custom",
-            "Lazy"
-          ],
-          "accessors": [
-            {
-              "kind": "Accessor",
-              "name": "Get",
-              "printedName": "Get()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UITableView",
-                  "printedName": "UIKit.UITableView",
-                  "usr": "c:objc(cs)UITableView"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvg",
-              "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvg",
-              "moduleName": "StarWapp",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "get"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Set",
-              "printedName": "Set()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                },
-                {
-                  "kind": "TypeNominal",
-                  "name": "UITableView",
-                  "printedName": "UIKit.UITableView",
-                  "usr": "c:objc(cs)UITableView"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvs",
-              "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0Cvs",
-              "moduleName": "StarWapp",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "set"
-            },
-            {
-              "kind": "Accessor",
-              "name": "Modify",
-              "printedName": "Modify()",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Void",
-                  "printedName": "()"
-                }
-              ],
-              "declKind": "Accessor",
-              "usr": "s:8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0CvM",
-              "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0So07UITableE0CvM",
-              "moduleName": "StarWapp",
-              "implicit": true,
-              "isOpen": true,
-              "accessorKind": "_modify"
-            }
-          ]
-        },
-        {
-          "kind": "Var",
-          "name": "$__lazy_storage_$_tableView",
-          "printedName": "$__lazy_storage_$_tableView",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "UIKit.UITableView?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UITableView",
-                  "printedName": "UIKit.UITableView",
-                  "usr": "c:objc(cs)UITableView"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC023$__lazy_storage_$_tableE033_47441A532BCC0545E8F8266C4664BD19LLSo07UITableE0CSgvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC023$__lazy_storage_$_tableE033_47441A532BCC0545E8F8266C4664BD19LLSo07UITableE0CSgvp",
-          "moduleName": "StarWapp",
-          "implicit": true,
-          "isInternal": true,
-          "declAttributes": [
-            "Custom",
-            "HasInitialValue",
-            "HasStorage",
-            "Final"
-          ],
-          "fixedbinaryorder": 3,
-          "hasStorage": true
-        },
-        {
-          "kind": "Var",
-          "name": "cellId",
-          "printedName": "cellId",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "String",
-              "printedName": "Swift.String",
-              "usr": "s:SS"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC6cellId33_47441A532BCC0545E8F8266C4664BD19LLSSvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC6cellId33_47441A532BCC0545E8F8266C4664BD19LLSSvp",
-          "moduleName": "StarWapp",
-          "isInternal": true,
-          "declAttributes": [
-            "HasInitialValue",
-            "Final",
-            "HasStorage",
-            "Custom",
             "AccessControl"
           ],
-          "fixedbinaryorder": 4,
-          "isLet": true,
+          "fixedbinaryorder": 2,
           "hasStorage": true
         },
         {
@@ -320,7 +168,7 @@
             "HasStorage",
             "AccessControl"
           ],
-          "fixedbinaryorder": 5,
+          "fixedbinaryorder": 3,
           "isLet": true,
           "hasStorage": true
         },
@@ -342,32 +190,6 @@
           "overriding": true,
           "isOpen": true,
           "objc_name": "viewDidLoad",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom",
-            "Override"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "loadView",
-          "printedName": "loadView()",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)loadView",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC04loadE0yyF",
-          "moduleName": "StarWapp",
-          "overriding": true,
-          "isOpen": true,
-          "objc_name": "loadView",
           "declAttributes": [
             "Dynamic",
             "ObjC",
@@ -471,235 +293,6 @@
             "Required"
           ],
           "init_kind": "Designated"
-        },
-        {
-          "kind": "Function",
-          "name": "tableView",
-          "printedName": "tableView(_:viewForHeaderInSection:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "UIKit.UIView?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UIView",
-                  "printedName": "UIKit.UIView",
-                  "usr": "c:objc(cs)UIView"
-                }
-              ],
-              "usr": "s:Sq"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:viewForHeaderInSection:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_22viewForHeaderInSectionSo6UIViewCSgSo07UITableE0C_SitF",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "objc_name": "tableView:viewForHeaderInSection:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "tableView",
-          "printedName": "tableView(_:heightForHeaderInSection:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "CGFloat",
-              "printedName": "CoreGraphics.CGFloat",
-              "usr": "s:12CoreGraphics7CGFloatV"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:heightForHeaderInSection:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_24heightForHeaderInSection12CoreGraphics7CGFloatVSo07UITableE0C_SitF",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "objc_name": "tableView:heightForHeaderInSection:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "tableView",
-          "printedName": "tableView(_:numberOfRowsInSection:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "Int",
-              "printedName": "Swift.Int",
-              "usr": "s:Si"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:numberOfRowsInSection:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_21numberOfRowsInSectionSiSo07UITableE0C_SitF",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "objc_name": "tableView:numberOfRowsInSection:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "tableView",
-          "printedName": "tableView(_:heightForRowAt:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "CGFloat",
-              "printedName": "CoreGraphics.CGFloat",
-              "usr": "s:12CoreGraphics7CGFloatV"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "IndexPath",
-              "printedName": "Foundation.IndexPath",
-              "usr": "s:10Foundation9IndexPathV"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:heightForRowAtIndexPath:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableE0C_10Foundation9IndexPathVtF",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "objc_name": "tableView:heightForRowAtIndexPath:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "tableView",
-          "printedName": "tableView(_:cellForRowAt:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "UITableViewCell",
-              "printedName": "UIKit.UITableViewCell",
-              "usr": "c:objc(cs)UITableViewCell"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "IndexPath",
-              "printedName": "Foundation.IndexPath",
-              "usr": "s:10Foundation9IndexPathV"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:cellForRowAtIndexPath:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_12cellForRowAtSo07UITableE4CellCSo0lE0C_10Foundation9IndexPathVtF",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "objc_name": "tableView:cellForRowAtIndexPath:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
-        },
-        {
-          "kind": "Function",
-          "name": "tableView",
-          "printedName": "tableView(_:didSelectRowAt:)",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Void",
-              "printedName": "()"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "UITableView",
-              "printedName": "UIKit.UITableView",
-              "usr": "c:objc(cs)UITableView"
-            },
-            {
-              "kind": "TypeNominal",
-              "name": "IndexPath",
-              "printedName": "Foundation.IndexPath",
-              "usr": "s:10Foundation9IndexPathV"
-            }
-          ],
-          "declKind": "Func",
-          "usr": "c:@CM@StarWapp@objc(cs)MainMenuViewController(im)tableView:didSelectRowAtIndexPath:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC05tableE0_14didSelectRowAtySo07UITableE0C_10Foundation9IndexPathVtF",
-          "moduleName": "StarWapp",
-          "isOpen": true,
-          "objc_name": "tableView:didSelectRowAtIndexPath:",
-          "declAttributes": [
-            "Dynamic",
-            "ObjC",
-            "Custom"
-          ],
-          "funcSelfKind": "NonMutating"
         }
       ],
       "declKind": "Class",
@@ -9255,6 +8848,30 @@
       "moduleName": "StarWapp"
     },
     {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
       "kind": "TypeDecl",
       "name": "ListItemMenuCell",
       "printedName": "ListItemMenuCell",
@@ -10737,6 +10354,622 @@
       "mangledName": "$s8StarWapp11MenuStringsV",
       "moduleName": "StarWapp",
       "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TableListViewController",
+      "printedName": "TableListViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_container",
+          "printedName": "$__lazy_storage_$_container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIStackView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStackView",
+                  "printedName": "UIKit.UIStackView",
+                  "usr": "c:objc(cs)UIStackView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp23TableListViewControllerC27$__lazy_storage_$_container33_6A4C921810043D84FFA5D3CA28B9315ALLSo07UIStackE0CSgvp",
+          "mangledName": "$s8StarWapp23TableListViewControllerC27$__lazy_storage_$_container33_6A4C921810043D84FFA5D3CA28B9315ALLSo07UIStackE0CSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_tableView",
+          "printedName": "$__lazy_storage_$_tableView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UITableView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITableView",
+                  "printedName": "UIKit.UITableView",
+                  "usr": "c:objc(cs)UITableView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp23TableListViewControllerC023$__lazy_storage_$_tableE033_6A4C921810043D84FFA5D3CA28B9315ALLSo07UITableE0CSgvp",
+          "mangledName": "$s8StarWapp23TableListViewControllerC023$__lazy_storage_$_tableE033_6A4C921810043D84FFA5D3CA28B9315ALLSo07UITableE0CSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "listItemsMenu",
+          "printedName": "listItemsMenu",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[StarWapp.ItemMenu]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ItemMenu",
+                  "printedName": "StarWapp.ItemMenu",
+                  "usr": "s:8StarWapp8ItemMenuV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp23TableListViewControllerC13listItemsMenu33_6A4C921810043D84FFA5D3CA28B9315ALLSayAA04ItemI0VGvp",
+          "mangledName": "$s8StarWapp23TableListViewControllerC13listItemsMenu33_6A4C921810043D84FFA5D3CA28B9315ALLSayAA04ItemI0VGvp",
+          "moduleName": "StarWapp",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "cellId",
+          "printedName": "cellId",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp23TableListViewControllerC6cellId33_6A4C921810043D84FFA5D3CA28B9315ALLSSvp",
+          "mangledName": "$s8StarWapp23TableListViewControllerC6cellId33_6A4C921810043D84FFA5D3CA28B9315ALLSSvp",
+          "moduleName": "StarWapp",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "Custom",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(listItemsMenu:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TableListViewController",
+              "printedName": "StarWapp.TableListViewController",
+              "usr": "c:@M@StarWapp@objc(cs)TableListViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[StarWapp.ItemMenu]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ItemMenu",
+                  "printedName": "StarWapp.ItemMenu",
+                  "usr": "s:8StarWapp8ItemMenuV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8StarWapp23TableListViewControllerC13listItemsMenuACSayAA04ItemI0VG_tcfc",
+          "mangledName": "$s8StarWapp23TableListViewControllerC13listItemsMenuACSayAA04ItemI0VG_tcfc",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "StarWapp.TableListViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TableListViewController",
+                  "printedName": "StarWapp.TableListViewController",
+                  "usr": "c:@M@StarWapp@objc(cs)TableListViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)initWithCoder:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "loadView",
+          "printedName": "loadView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)loadView",
+          "mangledName": "$s8StarWapp23TableListViewControllerC04loadE0yyF",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "loadView",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:viewForHeaderInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)tableView:viewForHeaderInSection:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC05tableE0_22viewForHeaderInSectionSo6UIViewCSgSo07UITableE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:viewForHeaderInSection:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:heightForHeaderInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)tableView:heightForHeaderInSection:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC05tableE0_24heightForHeaderInSection12CoreGraphics7CGFloatVSo07UITableE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:heightForHeaderInSection:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:numberOfRowsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)tableView:numberOfRowsInSection:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC05tableE0_21numberOfRowsInSectionSiSo07UITableE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:numberOfRowsInSection:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:heightForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)tableView:heightForRowAtIndexPath:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC05tableE0_14heightForRowAt12CoreGraphics7CGFloatVSo07UITableE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:heightForRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:cellForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableViewCell",
+              "printedName": "UIKit.UITableViewCell",
+              "usr": "c:objc(cs)UITableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)tableView:cellForRowAtIndexPath:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC05tableE0_12cellForRowAtSo07UITableE4CellCSo0lE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:didSelectRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)tableView:didSelectRowAtIndexPath:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC05tableE0_14didSelectRowAtySo07UITableE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "tableView:didSelectRowAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TableListViewController",
+              "printedName": "StarWapp.TableListViewController",
+              "usr": "c:@M@StarWapp@objc(cs)TableListViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)TableListViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8StarWapp23TableListViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@StarWapp@objc(cs)TableListViewController",
+      "mangledName": "$s8StarWapp23TableListViewControllerC",
+      "moduleName": "StarWapp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:@M@StarWapp@objc(cs)BaseViewController",
+      "superclassNames": [
+        "StarWapp.BaseViewController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
         {
           "kind": "Conformance",
           "name": "Sendable",

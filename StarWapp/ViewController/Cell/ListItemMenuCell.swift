@@ -12,6 +12,8 @@ import SnapKit
 class ListItemMenuCell: UITableViewCell {
     open lazy var container: UIView = {
         let view = UIView()
+        view.layer.cornerRadius = 10
+        view.layer.masksToBounds = true
         return view
     }()
     
@@ -27,6 +29,7 @@ class ListItemMenuCell: UITableViewCell {
     
     open lazy var icon: UIImageView = {
         let view = UIImageView()
+        view.contentMode = .scaleAspectFit
         return view
     }()
     

@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "3c476f1a1c934a78eb7655a27ea29bc9b8ed18343048c552601f5fc2a47f8558"
-build_start_time: [1654827693, 229565143]
-build_end_time: [1654827694, 96299171]
+build_start_time: [1654883390, 287412166]
+build_end_time: [1654883390, 804206848]
 inputs:
   "/Users/trabalho/Music/StarWapp/StarWapp/AppDelegate.swift": [1654742668, 235701084]
   "/Users/trabalho/Music/StarWapp/StarWapp/Common/Color/GlobalColor.swift": [1654740898, 616887092]
@@ -18,7 +18,9 @@ inputs:
   "/Users/trabalho/Music/StarWapp/StarWapp/Model/Starship/StarshipResponse.swift": [1654569370, 153046131]
   "/Users/trabalho/Music/StarWapp/StarWapp/SceneDelegate.swift": [1654823449, 926314830]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/BaseViewController.swift": [1654569942, 475783824]
-  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Cell/ListItemMenuCell.swift": [1654827417, 728400230]
-  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/MainMenuViewController.swift": [1654827689, 691284179]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Cell/ListItemMenuCell.swift": [1654865240, 940113544]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Extension/MainMenuViewController+UICollectionViewDataSource.swift": [1654880512, 376192092]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Extension/TableListViewController.swift": [1654882559, 819727659]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/MainMenuViewController.swift": [1654883390, 26977539]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewModel/BaseViewModel.swift": [1654569370, 172575473]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewModel/MenuViewModel.swift": [1654740944, 41782855]
