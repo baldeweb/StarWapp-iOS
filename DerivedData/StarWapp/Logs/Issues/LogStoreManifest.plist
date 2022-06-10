@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0C4E1A7B-B841-494F-AE11-7FCE91A34F83</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>0C4E1A7B-B841-494F-AE11-7FCE91A34F83.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>StarWapp-cjxnqwuxsqulzobyhrpmdouiqzyz</string>
-			<key>timeStartedRecording</key>
-			<real>676520217.83002603</real>
-			<key>timeStoppedRecording</key>
-			<real>676520218.89223897</real>
-			<key>title</key>
-			<string>Build target StarWapp</string>
-			<key>uniqueIdentifier</key>
-			<string>0C4E1A7B-B841-494F-AE11-7FCE91A34F83</string>
-		</dict>
 		<key>3F47A362-DFB8-4355-8310-F8116CFFEB52</key>
 		<dict>
 			<key>className</key>
@@ -89,6 +61,34 @@
 			<string>Build target Pods-StarWapp</string>
 			<key>uniqueIdentifier</key>
 			<string>8F9262CC-B800-47F6-A012-E1D96A543CF9</string>
+		</dict>
+		<key>EF652C72-0B81-4EFB-A6F6-C2846A042479</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>EF652C72-0B81-4EFB-A6F6-C2846A042479.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>StarWapp-cjxnqwuxsqulzobyhrpmdouiqzyz</string>
+			<key>timeStartedRecording</key>
+			<real>676520493.13058996</real>
+			<key>timeStoppedRecording</key>
+			<real>676520495.889382</real>
+			<key>title</key>
+			<string>Build target StarWapp</string>
+			<key>uniqueIdentifier</key>
+			<string>EF652C72-0B81-4EFB-A6F6-C2846A042479</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

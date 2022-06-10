@@ -46,11 +46,31 @@ class MainMenuViewController: BaseViewController {
                                                         image: UIImage(named: "ic_starships")!,
                                                         bgColor: GlobalColor.white,
                                                         controller: nil),
-                                                ItemMenu(
-                                                    title: MenuStrings.findPlanets,
-                                                    image: UIImage(named: "ic_planets")!,
-                                                    bgColor: GlobalColor.white,
-                                                    controller: nil)
+                                                    ItemMenu(
+                                                        title: MenuStrings.findPlanets,
+                                                        image: UIImage(named: "ic_planets")!,
+                                                        bgColor: GlobalColor.white,
+                                                        controller: nil),
+                                                    ItemMenu(
+                                                        title: MenuStrings.findCharacters,
+                                                        image: UIImage(named: "ic_characters")!,
+                                                        bgColor: GlobalColor.white,
+                                                        controller: nil),
+                                                    ItemMenu(
+                                                        title: MenuStrings.findRandom,
+                                                        image: UIImage(named: "ic_darthvader")!,
+                                                        bgColor: GlobalColor.yellow,
+                                                        controller: nil),
+                                                    ItemMenu(
+                                                        title: MenuStrings.settings,
+                                                        image: UIImage(named: "ic_settings")!,
+                                                        bgColor: GlobalColor.white,
+                                                        controller: nil),
+                                                    ItemMenu(
+                                                        title: MenuStrings.playSong,
+                                                        image: UIImage(named: "ic_music")!,
+                                                        bgColor: GlobalColor.white,
+                                                        controller: nil)
     )
     
     override func viewDidLoad() {
