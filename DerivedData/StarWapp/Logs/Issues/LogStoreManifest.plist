@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0357648D-9565-4953-BA3F-D34CED4CE09F</key>
+		<key>0C4E1A7B-B841-494F-AE11-7FCE91A34F83</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>0357648D-9565-4953-BA3F-D34CED4CE09F.xcactivitylog</string>
+			<string>0C4E1A7B-B841-494F-AE11-7FCE91A34F83.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>StarWapp-cjxnqwuxsqulzobyhrpmdouiqzyz</string>
 			<key>timeStartedRecording</key>
-			<real>676518847.32334399</real>
+			<real>676520217.83002603</real>
 			<key>timeStoppedRecording</key>
-			<real>676518848.76334798</real>
+			<real>676520218.89223897</real>
 			<key>title</key>
 			<string>Build target StarWapp</string>
 			<key>uniqueIdentifier</key>
-			<string>0357648D-9565-4953-BA3F-D34CED4CE09F</string>
+			<string>0C4E1A7B-B841-494F-AE11-7FCE91A34F83</string>
 		</dict>
 		<key>3F47A362-DFB8-4355-8310-F8116CFFEB52</key>
 		<dict>

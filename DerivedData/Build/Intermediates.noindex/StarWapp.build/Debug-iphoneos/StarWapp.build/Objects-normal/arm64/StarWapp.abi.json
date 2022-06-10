@@ -9261,6 +9261,95 @@
       "children": [
         {
           "kind": "Var",
+          "name": "container",
+          "printedName": "container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16ListItemMenuCellC9containerSo6UIViewCvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC9containerSo6UIViewCvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC9containerSo6UIViewCvg",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC9containerSo6UIViewCvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC9containerSo6UIViewCvs",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC9containerSo6UIViewCvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16ListItemMenuCellC9containerSo6UIViewCvM",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC9containerSo6UIViewCvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "$__lazy_storage_$_container",
           "printedName": "$__lazy_storage_$_container",
           "children": [
@@ -9420,54 +9509,19 @@
         },
         {
           "kind": "Var",
-          "name": "$__lazy_storage_$_contentItem",
-          "printedName": "$__lazy_storage_$_contentItem",
+          "name": "icon",
+          "printedName": "icon",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "UIKit.UIView?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UIView",
-                  "printedName": "UIKit.UIView",
-                  "usr": "c:objc(cs)UIView"
-                }
-              ],
-              "usr": "s:Sq"
+              "name": "UIImageView",
+              "printedName": "UIKit.UIImageView",
+              "usr": "c:objc(cs)UIImageView"
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp16ListItemMenuCellC025$__lazy_storage_$_contentD033_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
-          "mangledName": "$s8StarWapp16ListItemMenuCellC025$__lazy_storage_$_contentD033_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
-          "moduleName": "StarWapp",
-          "implicit": true,
-          "isInternal": true,
-          "declAttributes": [
-            "Custom",
-            "HasInitialValue",
-            "HasStorage",
-            "Final"
-          ],
-          "fixedbinaryorder": 2,
-          "hasStorage": true
-        },
-        {
-          "kind": "Var",
-          "name": "retangle",
-          "printedName": "retangle",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "UIView",
-              "printedName": "UIKit.UIView",
-              "usr": "c:objc(cs)UIView"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvp",
-          "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvp",
+          "usr": "s:8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvp",
           "moduleName": "StarWapp",
           "isOpen": true,
           "declAttributes": [
@@ -9483,14 +9537,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "UIView",
-                  "printedName": "UIKit.UIView",
-                  "usr": "c:objc(cs)UIView"
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvg",
-              "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvg",
+              "usr": "s:8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvg",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvg",
               "moduleName": "StarWapp",
               "implicit": true,
               "isOpen": true,
@@ -9508,14 +9562,14 @@
                 },
                 {
                   "kind": "TypeNominal",
-                  "name": "UIView",
-                  "printedName": "UIKit.UIView",
-                  "usr": "c:objc(cs)UIView"
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvs",
-              "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvs",
+              "usr": "s:8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvs",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvs",
               "moduleName": "StarWapp",
               "implicit": true,
               "isOpen": true,
@@ -9533,8 +9587,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvM",
-              "mangledName": "$s8StarWapp16ListItemMenuCellC8retangleSo6UIViewCvM",
+              "usr": "s:8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvM",
+              "mangledName": "$s8StarWapp16ListItemMenuCellC4iconSo11UIImageViewCvM",
               "moduleName": "StarWapp",
               "implicit": true,
               "isOpen": true,
@@ -9544,27 +9598,27 @@
         },
         {
           "kind": "Var",
-          "name": "$__lazy_storage_$_retangle",
-          "printedName": "$__lazy_storage_$_retangle",
+          "name": "$__lazy_storage_$_icon",
+          "printedName": "$__lazy_storage_$_icon",
           "children": [
             {
               "kind": "TypeNominal",
               "name": "Optional",
-              "printedName": "UIKit.UIView?",
+              "printedName": "UIKit.UIImageView?",
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "UIView",
-                  "printedName": "UIKit.UIView",
-                  "usr": "c:objc(cs)UIView"
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
                 }
               ],
               "usr": "s:Sq"
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp16ListItemMenuCellC26$__lazy_storage_$_retangle33_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
-          "mangledName": "$s8StarWapp16ListItemMenuCellC26$__lazy_storage_$_retangle33_283CC5BBA55532AC62423526CAC85423LLSo6UIViewCSgvp",
+          "usr": "s:8StarWapp16ListItemMenuCellC22$__lazy_storage_$_icon33_283CC5BBA55532AC62423526CAC85423LLSo11UIImageViewCSgvp",
+          "mangledName": "$s8StarWapp16ListItemMenuCellC22$__lazy_storage_$_icon33_283CC5BBA55532AC62423526CAC85423LLSo11UIImageViewCSgvp",
           "moduleName": "StarWapp",
           "implicit": true,
           "isInternal": true,
@@ -9574,7 +9628,7 @@
             "HasStorage",
             "Final"
           ],
-          "fixedbinaryorder": 3,
+          "fixedbinaryorder": 2,
           "hasStorage": true
         },
         {
@@ -10207,6 +10261,202 @@
               "declKind": "Accessor",
               "usr": "s:8StarWapp11MenuStringsV10findRandomSSvgZ",
               "mangledName": "$s8StarWapp11MenuStringsV10findRandomSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findStarshipsBreak",
+          "printedName": "findStarshipsBreak",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV18findStarshipsBreakSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV18findStarshipsBreakSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV18findStarshipsBreakSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV18findStarshipsBreakSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findPlanetsBreak",
+          "printedName": "findPlanetsBreak",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV16findPlanetsBreakSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV16findPlanetsBreakSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV16findPlanetsBreakSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV16findPlanetsBreakSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findCharactersBreak",
+          "printedName": "findCharactersBreak",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV19findCharactersBreakSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV19findCharactersBreakSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV19findCharactersBreakSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV19findCharactersBreakSSvgZ",
+              "moduleName": "StarWapp",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "findRandomBreak",
+          "printedName": "findRandomBreak",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp11MenuStringsV15findRandomBreakSSvpZ",
+          "mangledName": "$s8StarWapp11MenuStringsV15findRandomBreakSSvpZ",
+          "moduleName": "StarWapp",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp11MenuStringsV15findRandomBreakSSvgZ",
+              "mangledName": "$s8StarWapp11MenuStringsV15findRandomBreakSSvgZ",
               "moduleName": "StarWapp",
               "static": true,
               "implicit": true,

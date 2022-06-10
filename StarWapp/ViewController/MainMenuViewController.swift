@@ -135,9 +135,10 @@ extension MainMenuViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! ListItemMenuCell
-        cell.titleItem.textColor = hexStringToUIColor(hex: GlobalColor.dark)
+        cell.container.backgroundColor = hexStringToUIColor(hex: listItemsMenu[indexPath.row].bgColor)
+        cell.icon.image = listItemsMenu[indexPath.row].image
         cell.titleItem.text = listItemsMenu[indexPath.row].title
-        cell.retangle.backgroundColor = hexStringToUIColor(hex: listItemsMenu[indexPath.row].bgColor)
+        cell.titleItem.textColor = hexStringToUIColor(hex: GlobalColor.dark)
         cell.backgroundColor = UIColor.init(named: GlobalColor.dark)
         return cell
     }
