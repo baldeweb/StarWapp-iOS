@@ -254,8 +254,8 @@ SWIFT_CLASS("_TtC8StarWapp16ListItemMenuCell")
 @end
 
 
-SWIFT_CLASS("_TtC8StarWapp22MainMenuViewController")
-@interface MainMenuViewController : BaseViewController
+SWIFT_CLASS("_TtC8StarWapp18MenuViewController")
+@interface MenuViewController : BaseViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

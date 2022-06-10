@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowSecene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowSecene)
             
-            let vc = MainMenuViewController()
+            let vc = MenuViewController()
             vc.view.backgroundColor = UIColor.init(named: GlobalColor.dark)
             window.rootViewController = UINavigationController(rootViewController: vc)
             self.window = window
@@ -50,7 +50,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
+    
 }
 

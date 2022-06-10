@@ -9,12 +9,22 @@ import Foundation
 import UIKit
 import SnapKit
 
-class MainMenuViewController: BaseViewController {
-    private lazy var scrollView = UIScrollView()
-    
+class MenuViewController: BaseViewController {
     private lazy var container: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.init(named: GlobalColor.dark)
+        return view
+    }()
+    
+    private lazy var toolbar: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.init(named: GlobalColor.black)
+        return view
+    }()
+    
+    open lazy var toolbarImage: UIImageView = {
+        let view = UIImageView()
+        view.contentMode = .scaleAspectFit
         return view
     }()
     
@@ -57,11 +67,19 @@ class MainMenuViewController: BaseViewController {
         super.viewDidLoad()
         addViewComponents()
         setupConstraints()
+        populateData()
     }
     
     private func addViewComponents() {
         addTableList()
+        addToolbar()
         view.addSubview(container)
+    }
+    
+    private func addToolbar() {
+        toolbarImage.image = UIImage(named: "logo_starwars")
+        toolbar.addSubview(toolbarImage)
+        container.addSubview(toolbar)
     }
     
     private func addTableList() {
@@ -70,19 +88,38 @@ class MainMenuViewController: BaseViewController {
     }
     
     private func setupConstraints() {
+        toolbar.snp.makeConstraints { make in
+            make.top.equalToSuperview()
+            make.leading.equalToSuperview()
+            make.trailing.equalToSuperview()
+            make.width.greaterThanOrEqualTo(0)
+            make.height.equalTo(60)
+        }
+        
+        toolbarImage.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.centerY.equalToSuperview()
+            make.height.equalTo(55)
+        }
+        
         container.snp.makeConstraints { make in
             make.top.equalToSuperview().inset(100)
             make.bottom.equalToSuperview()
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
+            make.height.greaterThanOrEqualTo(0)
         }
         
         tableList.view.snp.makeConstraints { make in
-            make.top.equalToSuperview()
+            make.top.equalTo(toolbar.snp.bottomMargin).offset(48)
             make.bottom.equalToSuperview()
             make.leading.equalToSuperview()
             make.trailing.equalToSuperview()
+            make.height.greaterThanOrEqualTo(0)
         }
+    }
+    
+    private func populateData() {
     }
     
     private func openMenuItem(_ controller: UIViewController) {

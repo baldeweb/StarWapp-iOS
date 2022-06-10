@@ -29,44 +29,9 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "MainMenuViewController",
-      "printedName": "MainMenuViewController",
+      "name": "MenuViewController",
+      "printedName": "MenuViewController",
       "children": [
-        {
-          "kind": "Var",
-          "name": "$__lazy_storage_$_scrollView",
-          "printedName": "$__lazy_storage_$_scrollView",
-          "children": [
-            {
-              "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "UIKit.UIScrollView?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "UIScrollView",
-                  "printedName": "UIKit.UIScrollView",
-                  "usr": "c:objc(cs)UIScrollView"
-                }
-              ],
-              "usr": "s:Sq"
-            }
-          ],
-          "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC024$__lazy_storage_$_scrollE033_47441A532BCC0545E8F8266C4664BD19LLSo08UIScrollE0CSgvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC024$__lazy_storage_$_scrollE033_47441A532BCC0545E8F8266C4664BD19LLSo08UIScrollE0CSgvp",
-          "moduleName": "StarWapp",
-          "implicit": true,
-          "isInternal": true,
-          "declAttributes": [
-            "Custom",
-            "HasInitialValue",
-            "HasStorage",
-            "Final"
-          ],
-          "fixedbinaryorder": 0,
-          "hasStorage": true
-        },
         {
           "kind": "Var",
           "name": "$__lazy_storage_$_container",
@@ -88,8 +53,43 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC27$__lazy_storage_$_container33_47441A532BCC0545E8F8266C4664BD19LLSo6UIViewCSgvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC27$__lazy_storage_$_container33_47441A532BCC0545E8F8266C4664BD19LLSo6UIViewCSgvp",
+          "usr": "s:8StarWapp18MenuViewControllerC27$__lazy_storage_$_container33_8B129182A78B6A44444102365ADA4920LLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC27$__lazy_storage_$_container33_8B129182A78B6A44444102365ADA4920LLSo6UIViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_toolbar",
+          "printedName": "$__lazy_storage_$_toolbar",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp18MenuViewControllerC25$__lazy_storage_$_toolbar33_8B129182A78B6A44444102365ADA4920LLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC25$__lazy_storage_$_toolbar33_8B129182A78B6A44444102365ADA4920LLSo6UIViewCSgvp",
           "moduleName": "StarWapp",
           "implicit": true,
           "isInternal": true,
@@ -100,6 +100,130 @@
             "Final"
           ],
           "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "toolbarImage",
+          "printedName": "toolbarImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIImageView",
+              "printedName": "UIKit.UIImageView",
+              "usr": "c:objc(cs)UIImageView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0Cvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0Cvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0Cvg",
+              "mangledName": "$s8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0Cvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0Cvs",
+              "mangledName": "$s8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0Cvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0CvM",
+              "mangledName": "$s8StarWapp18MenuViewControllerC12toolbarImageSo07UIImageD0CvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_toolbarImage",
+          "printedName": "$__lazy_storage_$_toolbarImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImageView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp18MenuViewControllerC30$__lazy_storage_$_toolbarImage33_8B129182A78B6A44444102365ADA4920LLSo07UIImageD0CSgvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC30$__lazy_storage_$_toolbarImage33_8B129182A78B6A44444102365ADA4920LLSo07UIImageD0CSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 2,
           "hasStorage": true
         },
         {
@@ -123,8 +247,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC9tableList33_47441A532BCC0545E8F8266C4664BD19LLAA05TableheF0CSgvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC9tableList33_47441A532BCC0545E8F8266C4664BD19LLAA05TableheF0CSgvp",
+          "usr": "s:8StarWapp18MenuViewControllerC9tableList33_8B129182A78B6A44444102365ADA4920LLAA05TablegdE0CSgvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC9tableList33_8B129182A78B6A44444102365ADA4920LLAA05TablegdE0CSgvp",
           "moduleName": "StarWapp",
           "isInternal": true,
           "declAttributes": [
@@ -133,7 +257,7 @@
             "HasStorage",
             "AccessControl"
           ],
-          "fixedbinaryorder": 2,
+          "fixedbinaryorder": 3,
           "hasStorage": true
         },
         {
@@ -157,8 +281,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:8StarWapp22MainMenuViewControllerC09listItemsD033_47441A532BCC0545E8F8266C4664BD19LLSayAA04ItemD0VGvp",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC09listItemsD033_47441A532BCC0545E8F8266C4664BD19LLSayAA04ItemD0VGvp",
+          "usr": "s:8StarWapp18MenuViewControllerC09listItemsC033_8B129182A78B6A44444102365ADA4920LLSayAA04ItemC0VGvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC09listItemsC033_8B129182A78B6A44444102365ADA4920LLSayAA04ItemC0VGvp",
           "moduleName": "StarWapp",
           "isInternal": true,
           "declAttributes": [
@@ -168,7 +292,7 @@
             "HasStorage",
             "AccessControl"
           ],
-          "fixedbinaryorder": 3,
+          "fixedbinaryorder": 4,
           "isLet": true,
           "hasStorage": true
         },
@@ -184,8 +308,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)viewDidLoad",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC11viewDidLoadyyF",
+          "usr": "c:@M@StarWapp@objc(cs)MenuViewController(im)viewDidLoad",
+          "mangledName": "$s8StarWapp18MenuViewControllerC11viewDidLoadyyF",
           "moduleName": "StarWapp",
           "overriding": true,
           "isOpen": true,
@@ -205,9 +329,9 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "MainMenuViewController",
-              "printedName": "StarWapp.MainMenuViewController",
-              "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController"
+              "name": "MenuViewController",
+              "printedName": "StarWapp.MenuViewController",
+              "usr": "c:@M@StarWapp@objc(cs)MenuViewController"
             },
             {
               "kind": "TypeNominal",
@@ -239,8 +363,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)initWithNibName:bundle:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "usr": "c:@M@StarWapp@objc(cs)MenuViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8StarWapp18MenuViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
           "moduleName": "StarWapp",
           "overriding": true,
           "implicit": true,
@@ -261,13 +385,13 @@
             {
               "kind": "TypeNominal",
               "name": "Optional",
-              "printedName": "StarWapp.MainMenuViewController?",
+              "printedName": "StarWapp.MenuViewController?",
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "MainMenuViewController",
-                  "printedName": "StarWapp.MainMenuViewController",
-                  "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController"
+                  "name": "MenuViewController",
+                  "printedName": "StarWapp.MenuViewController",
+                  "usr": "c:@M@StarWapp@objc(cs)MenuViewController"
                 }
               ],
               "usr": "s:Sq"
@@ -280,8 +404,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController(im)initWithCoder:",
-          "mangledName": "$s8StarWapp22MainMenuViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "usr": "c:@M@StarWapp@objc(cs)MenuViewController(im)initWithCoder:",
+          "mangledName": "$s8StarWapp18MenuViewControllerC5coderACSgSo7NSCoderC_tcfc",
           "moduleName": "StarWapp",
           "overriding": true,
           "implicit": true,
@@ -296,8 +420,8 @@
         }
       ],
       "declKind": "Class",
-      "usr": "c:@M@StarWapp@objc(cs)MainMenuViewController",
-      "mangledName": "$s8StarWapp22MainMenuViewControllerC",
+      "usr": "c:@M@StarWapp@objc(cs)MenuViewController",
+      "mangledName": "$s8StarWapp18MenuViewControllerC",
       "moduleName": "StarWapp",
       "isOpen": true,
       "declAttributes": [

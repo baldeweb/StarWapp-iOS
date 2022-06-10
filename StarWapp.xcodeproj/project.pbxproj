@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		160089CC2851887A002150F1 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089CB28518879002150F1 /* MainMenuViewController.swift */; };
+		160089CC2851887A002150F1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089CB28518879002150F1 /* MenuViewController.swift */; };
 		160089CE28518B63002150F1 /* GlobalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089CD28518B63002150F1 /* GlobalColor.swift */; };
 		160089D128518CC3002150F1 /* ItemMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089D028518CC3002150F1 /* ItemMenu.swift */; };
 		160089D328518D68002150F1 /* MenuStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089D228518D68002150F1 /* MenuStrings.swift */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		07DD8E5AC064B9B7056D7A40 /* Pods-StarWapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWapp.debug.xcconfig"; path = "Target Support Files/Pods-StarWapp/Pods-StarWapp.debug.xcconfig"; sourceTree = "<group>"; };
 		0B7E213D635F8C2FCD3B2574 /* Pods_StarWapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		160089CB28518879002150F1 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		160089CB28518879002150F1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		160089CD28518B63002150F1 /* GlobalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColor.swift; sourceTree = "<group>"; };
 		160089D028518CC3002150F1 /* ItemMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMenu.swift; sourceTree = "<group>"; };
 		160089D228518D68002150F1 /* MenuStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStrings.swift; sourceTree = "<group>"; };
@@ -241,7 +241,7 @@
 				16215EA4285379E300F28635 /* Extension */,
 				160089DB28519192002150F1 /* Cell */,
 				16823091284ED9920040B0B6 /* BaseViewController.swift */,
-				160089CB28518879002150F1 /* MainMenuViewController.swift */,
+				160089CB28518879002150F1 /* MenuViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160089CC2851887A002150F1 /* MainMenuViewController.swift in Sources */,
+				160089CC2851887A002150F1 /* MenuViewController.swift in Sources */,
 				168230B0284EE2460040B0B6 /* PeopleResponse.swift in Sources */,
 				16823092284ED9920040B0B6 /* BaseViewController.swift in Sources */,
 				160089D128518CC3002150F1 /* ItemMenu.swift in Sources */,
