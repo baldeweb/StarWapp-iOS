@@ -103,10 +103,11 @@ class TableListViewController: BaseViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let item = listItemsMenu[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! ListItemMenuCell
-        cell.container.backgroundColor = hexStringToUIColor(hex: listItemsMenu[indexPath.row].bgColor)
-        cell.icon.image = listItemsMenu[indexPath.row].image
-        cell.titleItem.text = listItemsMenu[indexPath.row].title
+        cell.container.backgroundColor = hexStringToUIColor(hex: item.bgColor)
+        cell.icon.image = item.image
+        cell.titleItem.text = item.title
         cell.titleItem.textColor = hexStringToUIColor(hex: GlobalColor.dark)
         cell.backgroundColor = UIColor.init(named: GlobalColor.dark)
         return cell
@@ -114,8 +115,31 @@ class TableListViewController: BaseViewController, UITableViewDelegate, UITableV
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let item = tableView.indexPathForSelectedRow else { return }
+        let option = listItemsMenu[item.row]
         print("LOG >> Item: \(String(describing: listItemsMenu[item.row].title))")
         
+        switch(option.title) {
+        case MenuStrings.settings,
+            MenuStrings.playSong:
+            navigateTo(option.controller!)
+            break
+        default:
+            openMenuItem(option.controller!)
+            break
+        }
+        
         //openMenuItem(listItemsMenu[item.row].controller!)
+    }
+    
+    private func openMenuItem(_ controller: UIViewController) {
+        let screen = controller
+        screen.modalPresentationStyle = .overCurrentContext
+        self.present(screen, animated: true)
+    }
+    
+    private func navigateTo(_ controller: UIViewController) {
+        let screen = controller
+        screen.modalPresentationStyle = .pageSheet
+        self.present(screen, animated: true)
     }
 }

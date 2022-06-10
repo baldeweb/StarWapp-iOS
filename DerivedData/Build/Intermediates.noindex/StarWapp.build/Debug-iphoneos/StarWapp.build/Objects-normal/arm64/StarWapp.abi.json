@@ -228,6 +228,40 @@
         },
         {
           "kind": "Var",
+          "name": "collectionList",
+          "printedName": "collectionList",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UICollectionView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICollectionView",
+                  "printedName": "UIKit.UICollectionView",
+                  "usr": "c:objc(cs)UICollectionView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp18MenuViewControllerC14collectionList33_8B129182A78B6A44444102365ADA4920LLSo012UICollectionD0CSgvp",
+          "mangledName": "$s8StarWapp18MenuViewControllerC14collectionList33_8B129182A78B6A44444102365ADA4920LLSo012UICollectionD0CSgvp",
+          "moduleName": "StarWapp",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "tableList",
           "printedName": "tableList",
           "children": [
@@ -257,7 +291,7 @@
             "HasStorage",
             "AccessControl"
           ],
-          "fixedbinaryorder": 3,
+          "fixedbinaryorder": 4,
           "hasStorage": true
         },
         {
@@ -292,7 +326,7 @@
             "HasStorage",
             "AccessControl"
           ],
-          "fixedbinaryorder": 4,
+          "fixedbinaryorder": 5,
           "isLet": true,
           "hasStorage": true
         },
@@ -2721,6 +2755,266 @@
       "superclassNames": [
         "UIKit.UIViewController",
         "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GridItemTapGesture",
+      "printedName": "GridItemTapGesture",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "item",
+          "printedName": "item",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "StarWapp.ItemMenu?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ItemMenu",
+                  "printedName": "StarWapp.ItemMenu",
+                  "usr": "s:8StarWapp8ItemMenuV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvp",
+          "mangledName": "$s8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "StarWapp.ItemMenu?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ItemMenu",
+                      "printedName": "StarWapp.ItemMenu",
+                      "usr": "s:8StarWapp8ItemMenuV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvg",
+              "mangledName": "$s8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "StarWapp.ItemMenu?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ItemMenu",
+                      "printedName": "StarWapp.ItemMenu",
+                      "usr": "s:8StarWapp8ItemMenuV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvs",
+              "mangledName": "$s8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvM",
+              "mangledName": "$s8StarWapp18GridItemTapGestureC4itemAA0D4MenuVSgvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(target:action:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GridItemTapGesture",
+              "printedName": "StarWapp.GridItemTapGesture",
+              "usr": "c:@M@StarWapp@objc(cs)GridItemTapGesture"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ObjectiveC.Selector?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Selector",
+                  "printedName": "ObjectiveC.Selector",
+                  "usr": "s:10ObjectiveC8SelectorV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)GridItemTapGesture(im)initWithTarget:action:",
+          "mangledName": "$s8StarWapp18GridItemTapGestureC6target6actionACypSg_10ObjectiveC8SelectorVSgtcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithTarget:action:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@StarWapp@objc(cs)GridItemTapGesture",
+      "mangledName": "$s8StarWapp18GridItemTapGestureC",
+      "moduleName": "StarWapp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITapGestureRecognizer",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITapGestureRecognizer",
+        "UIKit.UIGestureRecognizer",
         "ObjectiveC.NSObject"
       ],
       "conformances": [
@@ -8972,30 +9266,6 @@
       "moduleName": "StarWapp"
     },
     {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "StarWapp",
-      "declAttributes": [
-        "RawDocComment"
-      ]
-    },
-    {
-      "kind": "Import",
-      "name": "UIKit",
-      "printedName": "UIKit",
-      "declKind": "Import",
-      "moduleName": "StarWapp"
-    },
-    {
-      "kind": "Import",
-      "name": "SnapKit",
-      "printedName": "SnapKit",
-      "declKind": "Import",
-      "moduleName": "StarWapp"
-    },
-    {
       "kind": "TypeDecl",
       "name": "ListItemMenuCell",
       "printedName": "ListItemMenuCell",
@@ -9567,6 +9837,377 @@
       ]
     },
     {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CollectionListViewController",
+      "printedName": "CollectionListViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "listItemsMenu",
+          "printedName": "listItemsMenu",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[StarWapp.ItemMenu]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ItemMenu",
+                  "printedName": "StarWapp.ItemMenu",
+                  "usr": "s:8StarWapp8ItemMenuV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp28CollectionListViewControllerC13listItemsMenu33_15C471F9CFA67948EF7401215E51D578LLSayAA04ItemI0VGvp",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC13listItemsMenu33_15C471F9CFA67948EF7401215E51D578LLSayAA04ItemI0VGvp",
+          "moduleName": "StarWapp",
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(listItemsMenu:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionListViewController",
+              "printedName": "StarWapp.CollectionListViewController",
+              "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[StarWapp.ItemMenu]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ItemMenu",
+                  "printedName": "StarWapp.ItemMenu",
+                  "usr": "s:8StarWapp8ItemMenuV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8StarWapp28CollectionListViewControllerC13listItemsMenuACSayAA04ItemI0VG_tcfc",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC13listItemsMenuACSayAA04ItemI0VG_tcfc",
+          "moduleName": "StarWapp",
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "StarWapp.CollectionListViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CollectionListViewController",
+                  "printedName": "StarWapp.CollectionListViewController",
+                  "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController(im)initWithCoder:",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "collectionView",
+          "printedName": "collectionView(_:numberOfItemsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UICollectionView",
+              "printedName": "UIKit.UICollectionView",
+              "usr": "c:objc(cs)UICollectionView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController(im)collectionView:numberOfItemsInSection:",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC010collectionE0_22numberOfItemsInSectionSiSo012UICollectionE0C_SitF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "collectionView:numberOfItemsInSection:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "collectionView",
+          "printedName": "collectionView(_:cellForItemAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UICollectionViewCell",
+              "printedName": "UIKit.UICollectionViewCell",
+              "usr": "c:objc(cs)UICollectionViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UICollectionView",
+              "printedName": "UIKit.UICollectionView",
+              "usr": "c:objc(cs)UICollectionView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController(im)collectionView:cellForItemAtIndexPath:",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC010collectionE0_13cellForItemAtSo012UICollectionE4CellCSo0lE0C_10Foundation9IndexPathVtF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "objc_name": "collectionView:cellForItemAtIndexPath:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tap",
+          "printedName": "tap(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GridItemTapGesture",
+              "printedName": "StarWapp.GridItemTapGesture",
+              "usr": "c:@M@StarWapp@objc(cs)GridItemTapGesture"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController(im)tap:",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC3tapyyAA18GridItemTapGestureCF",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CollectionListViewController",
+              "printedName": "StarWapp.CollectionListViewController",
+              "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8StarWapp28CollectionListViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@StarWapp@objc(cs)CollectionListViewController",
+      "mangledName": "$s8StarWapp28CollectionListViewControllerC",
+      "moduleName": "StarWapp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:@M@StarWapp@objc(cs)BaseViewController",
+      "superclassNames": [
+        "StarWapp.BaseViewController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
       "kind": "TypeDecl",
       "name": "EndpointsStrings",
       "printedName": "EndpointsStrings",
@@ -9743,6 +10384,602 @@
       "mangledName": "$s8StarWapp16EndpointsStringsV",
       "moduleName": "StarWapp",
       "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "StarWapp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "Import",
+      "name": "SnapKit",
+      "printedName": "SnapKit",
+      "declKind": "Import",
+      "moduleName": "StarWapp"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "GridItemMenuCell",
+      "printedName": "GridItemMenuCell",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "container",
+          "printedName": "container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIView",
+              "printedName": "UIKit.UIView",
+              "usr": "c:objc(cs)UIView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16GridItemMenuCellC9containerSo6UIViewCvp",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC9containerSo6UIViewCvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC9containerSo6UIViewCvg",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC9containerSo6UIViewCvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC9containerSo6UIViewCvs",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC9containerSo6UIViewCvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC9containerSo6UIViewCvM",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC9containerSo6UIViewCvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_container",
+          "printedName": "$__lazy_storage_$_container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIView",
+                  "printedName": "UIKit.UIView",
+                  "usr": "c:objc(cs)UIView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16GridItemMenuCellC27$__lazy_storage_$_container33_7DC72E90818487173DD5FA541760B14DLLSo6UIViewCSgvp",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC27$__lazy_storage_$_container33_7DC72E90818487173DD5FA541760B14DLLSo6UIViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "titleItem",
+          "printedName": "titleItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UILabel",
+              "printedName": "UIKit.UILabel",
+              "usr": "c:objc(cs)UILabel"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvp",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvg",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvs",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvM",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC05titleD0So7UILabelCvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_titleItem",
+          "printedName": "$__lazy_storage_$_titleItem",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16GridItemMenuCellC023$__lazy_storage_$_titleD033_7DC72E90818487173DD5FA541760B14DLLSo7UILabelCSgvp",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC023$__lazy_storage_$_titleD033_7DC72E90818487173DD5FA541760B14DLLSo7UILabelCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "icon",
+          "printedName": "icon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIImageView",
+              "printedName": "UIKit.UIImageView",
+              "usr": "c:objc(cs)UIImageView"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvp",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvp",
+          "moduleName": "StarWapp",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "Lazy",
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvg",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvg",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvs",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvs",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvM",
+              "mangledName": "$s8StarWapp16GridItemMenuCellC4iconSo11UIImageViewCvM",
+              "moduleName": "StarWapp",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$__lazy_storage_$_icon",
+          "printedName": "$__lazy_storage_$_icon",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImageView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8StarWapp16GridItemMenuCellC22$__lazy_storage_$_icon33_7DC72E90818487173DD5FA541760B14DLLSo11UIImageViewCSgvp",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC22$__lazy_storage_$_icon33_7DC72E90818487173DD5FA541760B14DLLSo11UIImageViewCSgvp",
+          "moduleName": "StarWapp",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "Final"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GridItemMenuCell",
+              "printedName": "StarWapp.GridItemMenuCell",
+              "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell(im)init",
+          "mangledName": "$s8StarWapp16GridItemMenuCellCACycfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "StarWapp.GridItemMenuCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GridItemMenuCell",
+                  "printedName": "StarWapp.GridItemMenuCell",
+                  "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell(im)initWithCoder:",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GridItemMenuCell",
+              "printedName": "StarWapp.GridItemMenuCell",
+              "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell(im)initWithFrame:",
+          "mangledName": "$s8StarWapp16GridItemMenuCellC5frameACSo6CGRectV_tcfc",
+          "moduleName": "StarWapp",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@StarWapp@objc(cs)GridItemMenuCell",
+      "mangledName": "$s8StarWapp16GridItemMenuCellC",
+      "moduleName": "StarWapp",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UICollectionViewCell",
+      "superclassNames": [
+        "UIKit.UICollectionViewCell",
+        "UIKit.UICollectionReusableView",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ConstraintRelatableTarget",
+          "printedName": "ConstraintRelatableTarget",
+          "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+          "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LayoutConstraintItem",
+          "printedName": "LayoutConstraintItem",
+          "usr": "s:7SnapKit20LayoutConstraintItemP",
+          "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+        },
         {
           "kind": "Conformance",
           "name": "Sendable",

@@ -1,6 +1,7 @@
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/MenuViewController.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/PeopleResponse.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/BaseViewController.o
+/Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/GridItemTapGesture.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/ItemMenu.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/BaseViewModel.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/FontUtils.o
@@ -12,9 +13,10 @@
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/StarshipResponse.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/SettingsStrings.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/GlobalColor.o
-/Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/MainMenuViewController+UICollectionViewDataSource.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/ListItemMenuCell.o
+/Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/CollectionListViewController.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/EndpointsStrings.o
+/Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/GridItemMenuCell.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/MenuStrings.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/TableListViewController.o
 /Users/trabalho/Music/StarWapp/DerivedData/Build/Intermediates.noindex/StarWapp.build/Debug-iphoneos/StarWapp.build/Objects-normal/arm64/MenuViewModel.o

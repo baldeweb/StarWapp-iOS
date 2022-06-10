@@ -15,8 +15,10 @@
 		160089DA28518FA7002150F1 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089D928518FA7002150F1 /* ViewUtils.swift */; };
 		160089DD2851919F002150F1 /* ListItemMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089DC2851919F002150F1 /* ListItemMenuCell.swift */; };
 		160089DF285191D7002150F1 /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160089DE285191D7002150F1 /* FontUtils.swift */; };
-		16215EA6285379F900F28635 /* MainMenuViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16215EA5285379F900F28635 /* MainMenuViewController+UICollectionViewDataSource.swift */; };
 		16215EA828537ADE00F28635 /* TableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16215EA728537ADE00F28635 /* TableListViewController.swift */; };
+		16215EAA2853E34300F28635 /* CollectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16215EA92853E34300F28635 /* CollectionListViewController.swift */; };
+		16215EAE2853E4FF00F28635 /* GridItemMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16215EAD2853E4FF00F28635 /* GridItemMenuCell.swift */; };
+		16215EB02853EACA00F28635 /* GridItemTapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16215EAF2853EACA00F28635 /* GridItemTapGesture.swift */; };
 		1682308E284ED9920040B0B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682308D284ED9920040B0B6 /* AppDelegate.swift */; };
 		16823090284ED9920040B0B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682308F284ED9920040B0B6 /* SceneDelegate.swift */; };
 		16823092284ED9920040B0B6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16823091284ED9920040B0B6 /* BaseViewController.swift */; };
@@ -50,8 +52,10 @@
 		160089E2285192A7002150F1 /* lato-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lato-regular.ttf"; sourceTree = "<group>"; };
 		160089E3285192A9002150F1 /* lato-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lato-bold.ttf"; sourceTree = "<group>"; };
 		160089E4285192B6002150F1 /* krungthep.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = krungthep.ttf; sourceTree = "<group>"; };
-		16215EA5285379F900F28635 /* MainMenuViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainMenuViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
 		16215EA728537ADE00F28635 /* TableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableListViewController.swift; sourceTree = "<group>"; };
+		16215EA92853E34300F28635 /* CollectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionListViewController.swift; sourceTree = "<group>"; };
+		16215EAD2853E4FF00F28635 /* GridItemMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemMenuCell.swift; sourceTree = "<group>"; };
+		16215EAF2853EACA00F28635 /* GridItemTapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemTapGesture.swift; sourceTree = "<group>"; };
 		1682308A284ED9920040B0B6 /* StarWapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1682308D284ED9920040B0B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1682308F284ED9920040B0B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				160089DC2851919F002150F1 /* ListItemMenuCell.swift */,
+				16215EAD2853E4FF00F28635 /* GridItemMenuCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -144,13 +149,14 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		16215EA4285379E300F28635 /* Extension */ = {
+		16215EA4285379E300F28635 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				16215EA5285379F900F28635 /* MainMenuViewController+UICollectionViewDataSource.swift */,
 				16215EA728537ADE00F28635 /* TableListViewController.swift */,
+				16215EA92853E34300F28635 /* CollectionListViewController.swift */,
+				16215EAF2853EACA00F28635 /* GridItemTapGesture.swift */,
 			);
-			path = Extension;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		16823081284ED9920040B0B6 = {
@@ -238,7 +244,7 @@
 		168230A7284EE0400040B0B6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				16215EA4285379E300F28635 /* Extension */,
+				16215EA4285379E300F28635 /* Components */,
 				160089DB28519192002150F1 /* Cell */,
 				16823091284ED9920040B0B6 /* BaseViewController.swift */,
 				160089CB28518879002150F1 /* MenuViewController.swift */,
@@ -407,6 +413,7 @@
 				160089CC2851887A002150F1 /* MenuViewController.swift in Sources */,
 				168230B0284EE2460040B0B6 /* PeopleResponse.swift in Sources */,
 				16823092284ED9920040B0B6 /* BaseViewController.swift in Sources */,
+				16215EB02853EACA00F28635 /* GridItemTapGesture.swift in Sources */,
 				160089D128518CC3002150F1 /* ItemMenu.swift in Sources */,
 				168230AB284EE0FC0040B0B6 /* BaseViewModel.swift in Sources */,
 				160089DF285191D7002150F1 /* FontUtils.swift in Sources */,
@@ -418,9 +425,10 @@
 				168230B4284EE8360040B0B6 /* StarshipResponse.swift in Sources */,
 				160089D528518E89002150F1 /* SettingsStrings.swift in Sources */,
 				160089CE28518B63002150F1 /* GlobalColor.swift in Sources */,
-				16215EA6285379F900F28635 /* MainMenuViewController+UICollectionViewDataSource.swift in Sources */,
 				160089DD2851919F002150F1 /* ListItemMenuCell.swift in Sources */,
+				16215EAA2853E34300F28635 /* CollectionListViewController.swift in Sources */,
 				168230BC284EECF70040B0B6 /* EndpointsStrings.swift in Sources */,
+				16215EAE2853E4FF00F28635 /* GridItemMenuCell.swift in Sources */,
 				160089D328518D68002150F1 /* MenuStrings.swift in Sources */,
 				16215EA828537ADE00F28635 /* TableListViewController.swift in Sources */,
 				168230A9284EE0B10040B0B6 /* MenuViewModel.swift in Sources */,

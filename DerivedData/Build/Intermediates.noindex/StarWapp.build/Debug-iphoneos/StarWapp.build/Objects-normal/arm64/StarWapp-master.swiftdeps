@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
 options: "3c476f1a1c934a78eb7655a27ea29bc9b8ed18343048c552601f5fc2a47f8558"
-build_start_time: [1654889170, 427702903]
-build_end_time: [1654889170, 919671058]
+build_start_time: [1654895671, 347826957]
+build_end_time: [1654895671, 986164093]
 inputs:
   "/Users/trabalho/Music/StarWapp/StarWapp/AppDelegate.swift": [1654889170, 213869571]
   "/Users/trabalho/Music/StarWapp/StarWapp/Common/Color/GlobalColor.swift": [1654740898, 616887092]
@@ -18,9 +18,11 @@ inputs:
   "/Users/trabalho/Music/StarWapp/StarWapp/Model/Starship/StarshipResponse.swift": [1654569370, 153046131]
   "/Users/trabalho/Music/StarWapp/StarWapp/SceneDelegate.swift": [1654889133, 707425594]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/BaseViewController.swift": [1654569942, 475783824]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Cell/GridItemMenuCell.swift": [1654894486, 456607341]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Cell/ListItemMenuCell.swift": [1654865240, 940113544]
-  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Extension/MainMenuViewController+UICollectionViewDataSource.swift": [1654880512, 376192092]
-  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Extension/TableListViewController.swift": [1654882559, 819727659]
-  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/MenuViewController.swift": [1654889044, 563452482]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Components/CollectionListViewController.swift": [1654895624, 762204647]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Components/GridItemTapGesture.swift": [1654895600, 590705394]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Components/TableListViewController.swift": [1654895600, 607161998]
+  "/Users/trabalho/Music/StarWapp/StarWapp/ViewController/MenuViewController.swift": [1654895671, 135080814]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewModel/BaseViewModel.swift": [1654569370, 172575473]
   "/Users/trabalho/Music/StarWapp/StarWapp/ViewModel/MenuViewModel.swift": [1654740944, 41782855]

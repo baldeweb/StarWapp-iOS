@@ -246,6 +246,34 @@ SWIFT_CLASS("_TtC8StarWapp13BaseViewModel")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UICollectionView;
+@class NSIndexPath;
+@class UICollectionViewCell;
+@class GridItemTapGesture;
+
+SWIFT_CLASS("_TtC8StarWapp28CollectionListViewController")
+@interface CollectionListViewController : BaseViewController <UICollectionViewDataSource>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tap:(GridItemTapGesture * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC8StarWapp16GridItemMenuCell")
+@interface GridItemMenuCell : UICollectionViewCell
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC8StarWapp18GridItemTapGesture")
+@interface GridItemTapGesture : UITapGestureRecognizer
+- (nonnull instancetype)initWithTarget:(id _Nullable)target action:(SEL _Nullable)action OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC8StarWapp16ListItemMenuCell")
 @interface ListItemMenuCell : UITableViewCell
@@ -284,7 +312,6 @@ SWIFT_CLASS("_TtC8StarWapp13SceneDelegate")
 
 @class UITableView;
 @class UIView;
-@class NSIndexPath;
 
 SWIFT_CLASS("_TtC8StarWapp23TableListViewController")
 @interface TableListViewController : BaseViewController <UITableViewDataSource, UITableViewDelegate>

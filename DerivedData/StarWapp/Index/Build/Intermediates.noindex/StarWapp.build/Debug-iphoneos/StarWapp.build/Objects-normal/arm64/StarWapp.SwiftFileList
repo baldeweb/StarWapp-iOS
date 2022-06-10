@@ -1,6 +1,7 @@
 /Users/trabalho/Music/StarWapp/StarWapp/ViewController/MenuViewController.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Model/People/PeopleResponse.swift
 /Users/trabalho/Music/StarWapp/StarWapp/ViewController/BaseViewController.swift
+/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Components/GridItemTapGesture.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Model/Global/ItemMenu.swift
 /Users/trabalho/Music/StarWapp/StarWapp/ViewModel/BaseViewModel.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Common/Utils/FontUtils.swift
@@ -12,10 +13,11 @@
 /Users/trabalho/Music/StarWapp/StarWapp/Model/Starship/StarshipResponse.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Common/Strings/SettingsStrings.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Common/Color/GlobalColor.swift
-/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Extension/MainMenuViewController+UICollectionViewDataSource.swift
 /Users/trabalho/Music/StarWapp/StarWapp/ViewController/Cell/ListItemMenuCell.swift
+/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Components/CollectionListViewController.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Common/Strings/EndpointsStrings.swift
+/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Cell/GridItemMenuCell.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Common/Strings/MenuStrings.swift
-/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Extension/TableListViewController.swift
+/Users/trabalho/Music/StarWapp/StarWapp/ViewController/Components/TableListViewController.swift
 /Users/trabalho/Music/StarWapp/StarWapp/ViewModel/MenuViewModel.swift
 /Users/trabalho/Music/StarWapp/StarWapp/Common/Utils/ViewUtils.swift

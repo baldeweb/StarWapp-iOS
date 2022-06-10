@@ -28,6 +28,8 @@ class MenuViewController: BaseViewController {
         return view
     }()
     
+    private var collectionList: UICollectionView!
+    
     private var tableList: TableListViewController!
     
     private let listItemsMenu = Array<ItemMenu>(arrayLiteral:
@@ -36,31 +38,31 @@ class MenuViewController: BaseViewController {
                                                         image: UIImage(named: "ic_starships")!,
                                                         bgColor: GlobalColor.white,
                                                         controller: nil),
-                                                    ItemMenu(
-                                                        title: MenuStrings.findPlanets,
-                                                        image: UIImage(named: "ic_planets")!,
-                                                        bgColor: GlobalColor.white,
-                                                        controller: nil),
-                                                    ItemMenu(
-                                                        title: MenuStrings.findCharacters,
-                                                        image: UIImage(named: "ic_characters")!,
-                                                        bgColor: GlobalColor.white,
-                                                        controller: nil),
-                                                    ItemMenu(
-                                                        title: MenuStrings.findRandom,
-                                                        image: UIImage(named: "ic_darthvader")!,
-                                                        bgColor: GlobalColor.yellow,
-                                                        controller: nil),
-                                                    ItemMenu(
-                                                        title: MenuStrings.settings,
-                                                        image: UIImage(named: "ic_settings")!,
-                                                        bgColor: GlobalColor.white,
-                                                        controller: nil),
-                                                    ItemMenu(
-                                                        title: MenuStrings.playSong,
-                                                        image: UIImage(named: "ic_music")!,
-                                                        bgColor: GlobalColor.white,
-                                                        controller: nil)
+                                                ItemMenu(
+                                                    title: MenuStrings.findPlanets,
+                                                    image: UIImage(named: "ic_planets")!,
+                                                    bgColor: GlobalColor.white,
+                                                    controller: nil),
+                                                ItemMenu(
+                                                    title: MenuStrings.findCharacters,
+                                                    image: UIImage(named: "ic_characters")!,
+                                                    bgColor: GlobalColor.white,
+                                                    controller: nil),
+                                                ItemMenu(
+                                                    title: MenuStrings.findRandom,
+                                                    image: UIImage(named: "ic_darthvader")!,
+                                                    bgColor: GlobalColor.yellow,
+                                                    controller: nil),
+                                                ItemMenu(
+                                                    title: MenuStrings.settings,
+                                                    image: UIImage(named: "ic_settings")!,
+                                                    bgColor: GlobalColor.white,
+                                                    controller: nil),
+                                                ItemMenu(
+                                                    title: MenuStrings.playSong,
+                                                    image: UIImage(named: "ic_music")!,
+                                                    bgColor: GlobalColor.white,
+                                                    controller: nil)
     )
     
     override func viewDidLoad() {
@@ -71,7 +73,7 @@ class MenuViewController: BaseViewController {
     }
     
     private func addViewComponents() {
-        addTableList()
+        decideListStyle()
         addToolbar()
         view.addSubview(container)
     }
@@ -82,9 +84,21 @@ class MenuViewController: BaseViewController {
         container.addSubview(toolbar)
     }
     
+    private func decideListStyle() {
+//        if false {
+//            addTableList()
+//        } else {
+            addCollectionList()
+//        }
+    }
+    
     private func addTableList() {
         tableList = TableListViewController(listItemsMenu: listItemsMenu)
         container.addSubview(tableList.view)
+    }
+    
+    private func addCollectionList() {
+        collectionList = UICollectionView(frame: view.bounds, collectionViewLayout: createLayout())
     }
     
     private func setupConstraints() {
@@ -109,13 +123,23 @@ class MenuViewController: BaseViewController {
             make.trailing.equalToSuperview()
             make.height.greaterThanOrEqualTo(0)
         }
-        
-        tableList.view.snp.makeConstraints { make in
-            make.top.equalTo(toolbar.snp.bottomMargin).offset(48)
-            make.bottom.equalToSuperview()
-            make.leading.equalToSuperview()
-            make.trailing.equalToSuperview()
-            make.height.greaterThanOrEqualTo(0)
+//
+//        if false {
+//            tableList.view.snp.makeConstraints { make in
+//                make.top.equalTo(toolbar.snp.bottomMargin).offset(48)
+//                make.bottom.equalToSuperview()
+//                make.leading.equalToSuperview()
+//                make.trailing.equalToSuperview()
+//                make.height.greaterThanOrEqualTo(0)
+//            }
+//        } else {
+            collectionList.snp.makeConstraints { make in
+                make.top.equalTo(toolbar.snp.bottomMargin).offset(48)
+                make.bottom.equalToSuperview()
+                make.leading.equalToSuperview()
+                make.trailing.equalToSuperview()
+                make.height.greaterThanOrEqualTo(0)
+//            }
         }
     }
     
@@ -126,5 +150,21 @@ class MenuViewController: BaseViewController {
         let screen = controller
         screen.modalPresentationStyle = .overCurrentContext
         self.present(screen, animated: true)
+    }
+    
+    private func createLayout() -> UICollectionViewLayout {
+        let itemSize = NSCollectionLayoutSize(
+            widthDimension: .fractionalWidth(1.0),
+            heightDimension: .fractionalHeight(1.0)
+        )
+        let item = NSCollectionLayoutItem(layoutSize: itemSize)
+        let groupSize = NSCollectionLayoutSize(
+            widthDimension: .fractionalWidth(1.0),
+            heightDimension: .absolute(44)
+        )
+        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize,subitems: [item])
+        let section = NSCollectionLayoutSection(group: group)
+        let layout = UICollectionViewCompositionalLayout(section: section)
+        return layout
     }
 }
